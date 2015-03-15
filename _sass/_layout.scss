@@ -1,0 +1,226 @@
+body {
+    position: relative;
+    text-rendering: optimizelegibility;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-feature-settings: "liga";
+    color: rgba(0, 0, 0, 0.8);
+}
+/**
+ * Site header
+ */
+.site-header {
+    min-height: 51px;
+
+    // Positioning context for the mobile navigation icon
+    position: relative;
+}
+.navbar {
+    font-family: $additional-font-family;
+    font-size: 14px;
+    background-color: #fff;
+    border-bottom: solid 1px #E8E8E8;
+    margin-bottom: 0px;
+    .navbar-header {
+        padding-left: 40px;
+    }
+    .navbar-brand {
+        font-size: 14px;
+    }
+    .navbar-nav > li, .navbar-brand {
+        border-top: 2px solid #fff;
+        border-bottom: 2px solid #fff;
+        &.active {
+            border-top: 2px solid $brand-color;
+            a, a:hover {
+                background: none;
+                color: #000;
+            }
+        }
+    }
+    .navbar-nav > li > a, .navbar-brand {
+        color: #000;
+    }
+}
+
+.header {
+    margin-bottom: 60px;
+    text-align: center;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.infoblock {
+    width: 259px;
+    height: 160px;
+    background-color: #fff;
+    padding: 25px 20px;
+    border: solid 2px #E8E8E8;
+    &.positioned {
+        position: absolute;
+        left: 25%;
+        top: 160px;
+    }
+    img {
+        width: auto;
+        height: auto;
+    }
+    .caption {
+        padding-top: 20px;
+        font-family: $additional-font-family;
+        font-size: 14px;
+    }
+}
+
+.right-column {
+    float: left;
+    width: 75%;
+    max-width: 900px;
+}
+
+.left-column {
+    float: left;
+    width: 25%;
+    min-height: 1px;
+    position: relative;
+    padding-right: 15px;
+
+    .toc {
+        font-family: $additional-font-family;
+        font-size: 14px;
+        padding-left: 40px;
+        ul {
+            width: 200px;
+        }
+        li > a {
+            display: block;
+            padding: 4px 0px;
+            font-weight: 500;
+            color: #000;
+            &:hover {
+                color: $brand-color;
+                background: none;
+            }
+        }
+
+        .active > a {
+            color: $brand-color;
+        }
+        &.affix-top {
+            padding-top: 20px;
+        }
+        &.affix {
+            top: 50px;
+        }
+    }
+}
+
+.chapter {
+    padding-bottom: 85px;
+    float: left;
+
+    blockquote, .content {
+        max-width: 645px;
+        float: left;
+    }
+    .reference {
+        float: right;
+        width: 170px;
+        font-size: 14px;
+        margin: 5px 0px 0px 0px;
+    }
+}
+
+h3 {
+    font-size: 44px;
+}
+h4 {
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.source {
+    font-size: 16px;
+    font-style: italic;
+    color: #9D9D9D;
+    font-family: $base-font-family;
+}
+.blockquote {
+    margin-bottom: 50px;
+    width: 100%;
+    .text {
+        display: inline-block;
+        max-width: 443px;
+        border-bottom: 1px solid #9D9D9D;
+        border-top: 1px solid #9D9D9D;
+        font-family: Roboto;
+        font-size: 15px;
+        padding: 15px 0px 30px 0px;
+    }
+    .source {
+        display: inline-block;
+        margin-top: 25px;
+        width: 151px;
+        padding-right: 51px;
+    }
+
+}
+.hanging-apostrophe {
+    margin-left: -0.5em;
+}
+
+.reference-block {
+    float: left;
+    padding: 35px 0px;
+    width: 100%;
+    blockquote {
+        padding: 0px;
+    }
+}
+blockquote {
+    font-family: $additional-font-family;
+    &.highlight {
+        font-style: italic;
+        font-family: $base-font-family;
+        ul {
+            margin-top: 0px;
+        }
+    }
+    font-size: 24px;
+    border-left: none;
+    padding: 0px 0px 20px 0px;
+}
+
+
+ul, ol {
+    margin-top: -$spacing-unit * 0.4;
+}
+
+ul {
+    margin-left: $spacing-unit * 0.6;
+    &.short {
+        list-style: none inside none;
+    }
+    &.dash {
+        margin-bottom: $spacing-unit;
+        list-style: outside none none;
+        margin-left: 0em;
+        padding-left: 1.2em;
+        text-indent: -1em;
+        li:before {
+            content: "—";
+            position: relative;
+            left: -0.2em;
+        }
+        li {
+            margin-bottom: 0.5em;
+        }
+        li.last {
+            margin-bottom: 0em;
+        }
+    }
+}
+.clear-fix {
+    margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
+}

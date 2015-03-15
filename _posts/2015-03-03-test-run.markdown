@@ -1,0 +1,37 @@
+---
+layout: post
+status: publish
+published: true
+title: Test run
+author:
+  display_name: sery0ga
+  login: sery0ga
+  email: skotlov@gmail.com
+  url: ''
+author_login: sery0ga
+author_email: skotlov@gmail.com
+image_background: 413D4E
+image: /images/car_race.png
+date: '2015-03-03 10:02:25 +0300'
+date_gmt: '2015-03-03 10:02:25 +0300'
+categories:
+tags: [Real Options, Happy Melly Tour]
+comments: []
+---
+My mom became an expert in <a href="http://commitment-thebook.com/" target="_blank" shape="rect">real options</a> long before I started to apply them in my professional and every day life . She uses them each time she is unsure if an expensive dress or a pair of shoes are worth spending money on. The algorithm is simple. She buys (yes!) shoes, brings them home and demonstrates to the whole family asking for our feedback. She puts them on and walks around the apartment. She checks which dresses, skirts and pants fit the shoes. After two or three days she returns the shoes to the shop and gets her money back. She calculates <em>before</em> the purchase if she is ready to spend two hours of her life to bring the shoes back to the shop. These two hours is a price of <strong>a test run</strong>.
+
+<p>We use <strong>test runs</strong> in all spheres of our life. Extreme sport athletes ride a track several times before an event to know it better. Social networks first open new features to a small set of users to check their reaction. Companies have trial periods to prove a new hire is a good fit for the rest of a team.</p>
+<p>Test runs are cool because they allow us to deepen our knowledge about an object of interest for a fraction of its full cost.</p>
+<p>In the middle of January I had to visit Moscow because of personal circumstances. I decided to make a perfect test run for <a title="Hard and funny" href="http://www.changegeek.ru/blog/2015/02/19/hard-and-funny/" target="_blank">my tour</a> out of it. Using my mom's wisdom I created a list of questions I wanted to get answers to:</p>
+<ul>
+<li>How comfortable will I be renting a room at <a href="https://www.airbnb.com/rooms/2841836" target="_blank" shape="rect">AirBnB</a>?</li>
+<li>Will my productivity go down? If yes, for how much?</li>
+<li>What will my expenses look like?</li>
+<li>Will it be OK to work in cafes and coffee shops?</li>
+</ul>
+<p>and many more..</p>
+<p>I spent almost two weeks in Moscow, worked remotely and met with some people. The outcomes were surprising. For example, I found out that moving from one cafe to another is not productive for me — I got used to a good working table and it's one of my requirement for renting now. Another finding was that I got out of my daily routines during first few days. It caused a stroke of laziness which I couldn't defeat at once.</p>
+<p>There are a list of small and big problems I discovered during my test run in January. Some of them are already resolved. Some of them are still waiting in line. It was a good investment at the end.</p>
+<p><em>What about you? Tell me about your test runs.</em></p>
+<p>&nbsp;</p>
+<p><em>photo credits: <a title="Eddy Clio" href="https://www.flickr.com/photos/eddy_clio/" target="_blank">Eddy Clio</a></em></p>

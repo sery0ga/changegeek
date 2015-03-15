@@ -1,0 +1,54 @@
+<header class="site-header">
+  <div class="wrapper">
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-static-top" role="navigation">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.title }}</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                  <li id="tour">
+                      <a href="/tour/">Tour</a>
+                  </li>
+                  <li id="blog">
+                      <a href="/">Blog</a>
+                  </li>
+                  <li id="about">
+                      <a href="/about/">About</a>
+                  </li>
+                  <li id="projects">
+                      <a href="/projects/">Projects</a>
+                  </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+    </nav>
+  </div>
+</header>
+<script>
+$(document).ready(function() {
+    var path = window.location.pathname;
+    if (path.indexOf("tour") > -1) {
+        $("#tour").addClass('active');
+    }
+    if (path.indexOf("about") > -1) {
+        $("#about").addClass('active');
+    }
+    if (path.indexOf("projects") > -1) {
+        $("#projects").addClass('active');
+    }
+    if (path == "/" || path == "") {
+        $("#blog").addClass('active');
+    }
+});
+</script>

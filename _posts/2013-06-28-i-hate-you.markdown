@@ -1,0 +1,24 @@
+---
+layout: post
+status: publish
+published: true
+title: I Hate You
+author:
+  display_name: sery0ga
+  login: sery0ga
+  email: skotlov@gmail.com
+  url: ''
+author_login: sery0ga
+author_email: skotlov@gmail.com
+date: '2013-06-28 17:16:20 +0400'
+date_gmt: '2013-06-28 17:16:20 +0400'
+categories:
+tags: [Happiness]
+comments: []
+---
+I've never thought that a phrase "I Hate You" could become the best compliment I've ever heard. But it could and here's a story.
+
+<p>Yesterday I was in a pub with two former colleagues of mine, sipping beer and discussing some ideas related to project development and <a title="Happy Melly" href="http://happymelly.com">happiness at work</a>. Word by word we came to the topic of lack of companies it would be great to work at. That topic was of current importance as two of us were leaving our companies next day. I don't clearly remember all the context (it was between third and fourth pint of beer) but Regina suddenly said</p>
+<blockquote><p>I hate you, Sergey! It's because of you I cannot find a company which working environment I really like. After all the experience we had in AdHands.</p></blockquote>
+<p style="text-align: left">That was the moment I understood I did something right in my life -- I made at least one person a little bit happier at her job and showed to her there was a better way to work.</p>
+<p style="text-align: left">Regina, if you ever read this post: <strong>Thank you for "hating" me</strong><strong></strong>.</p>

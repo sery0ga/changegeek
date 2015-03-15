@@ -1,0 +1,109 @@
+/**
+ * Reset some basic elements
+ */
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url('/fonts/Roboto-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: LiberationSerif;
+    src: url('/fonts/LiberationSerif-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: LiberationSerif;
+    src: url('/fonts/LiberationSerif-Italic.ttf');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: LiberationSerif;
+    src: url('/fonts/LiberationSerif-Bold.ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+$base-font-family: LiberationSerif,Times,serif;
+$additional-font-family: Roboto, Verdana,sans-serif;
+
+h1, h2, h3, h4 {
+    font-family: $additional-font-family;
+}
+
+/**
+ * Basic styling
+ */
+body {
+    font-family: $base-font-family;
+    font-size: $base-font-size;
+    line-height: $base-line-height;
+    letter-spacing: 0.01rem;
+    font-weight: 300;
+    color: $text-color;
+    background-color: $background-color;
+    -webkit-text-size-adjust: 100%;
+}
+
+
+/**
+ * Set `margin-bottom` to maintain vertical rhythm
+ */
+h1, h2, h3, h4, h5, h6,
+p, pre,
+ul, ol, dl, figure,
+%vertical-rhythm {
+    margin-bottom: $spacing-unit / 2;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+/**
+ * Lists
+ */
+ul, ol {
+    margin-left: $spacing-unit;
+}
+
+li {
+    > ul,
+    > ol {
+         margin-bottom: 0;
+    }
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 300;
+}
+
+/**
+ * Links
+ */
+a {
+    color: $brand-color;
+    text-decoration: none;
+
+    &:visited {
+        color: darken($brand-color, 5%);
+    }
+    &:visited.label {
+        color: white;
+    }
+
+    &:hover {
+        color: darken($brand-color, 15%);
+        text-decoration: underline;
+    }
+}
