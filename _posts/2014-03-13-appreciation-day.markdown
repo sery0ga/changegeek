@@ -1,5 +1,5 @@
 ---
-layout: no_image_post
+layout: post
 status: publish
 published: true
 title: Appreciation Day
