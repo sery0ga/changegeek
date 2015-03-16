@@ -21,7 +21,7 @@ As many of you I had used <a title="Real Options Underlie Agile Principles" href
 
 <h2>Interviews</h2>
 <p>I don't like job interviews. During a very short period of time an interviewer needs to understand if:</p>
-<ul>
+<ul class="short">
 <li>a person has enough skills;</li>
 <li>she is a good cultural fit.</li>
 </ul>
@@ -35,14 +35,18 @@ As many of you I had used <a title="Real Options Underlie Agile Principles" href
 <li>if you live in a different country and do not have a work permit (my case!), it is rarely an option. Relocation costs are high and a company should prove it's not possible to find an alternative on a local market.</li>
 </ol>
 <p>Putting aside the first minus, let's try to handle the second one.</p>
-<h2>Real Options to the Rescue</h2>
-<p>So my suggestion is:</p>
-<ul>
+
+## Real Options to the Rescue
+
+So my suggestion is:
+
+<ul class="dash">
 <li>I arrive and work for free at your company, say, for two weeks. Two weeks should be enough to get into the process and make some impact.</li>
 <li>I pay flight and living expenses by myself;</li>
 <li>If you say "No, Sergey, you're not good enough for us" after two weeks, I'll get back home with an excellent experience in my pocket and a couple of new friends. All money you'll lose in this case is time you'll spend on me and water from a cooler.</li>
 <li>If you decide to give me a role in your team after two weeks, you'll pay me back my costs (hotel, flight) and two weeks of my employment based on my salary as soon as I'll arrive after getting a work visa.</li>
 </ul>
+
 <p><strong>You get:</strong></p>
 <ol>
 <li>An opportunity to take much more weighted decision with opinions from many employees;</li>

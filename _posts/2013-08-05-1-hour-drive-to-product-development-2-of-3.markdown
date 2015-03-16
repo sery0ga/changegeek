@@ -19,7 +19,7 @@ comments: []
 <em>This is the second post of three-part series. Read about <a title="What are our goals?" href="http://www.changegeek.ru/2013/07/1-hour-drive-to-product-development-1-of-3/">goals and costs</a> in the first part</em><em>.</em>
 
 <p>While driving I was thinking about a correlation between customer satisfaction and operational costs. I came up with the points that focus on customer satisfaction from the very beginning:</p>
-<ul>
+<ul class="dash">
 <li><strong>may</strong> lead to longer time-to-market of the first release and higher initial costs. So we loose in short term.</li>
 <li><strong>always</strong> leads to lower operational costs and steeper product dynamic. So we win in long term.</li>
 </ul>
@@ -27,12 +27,12 @@ comments: []
 <p>It's not a part of F1 track on the image below. Unfortunately a piece of our route to Viborg is depicted here.<strong></strong></p>
 <p><a href="http://changegeek.ru//wp-content/uploads/2013/08/meandering_road.png"><img class="alignnone size-full wp-image-88" title="Meandering Road" src="http://changegeek.ru//wp-content/uploads/2013/08/meandering_road.png" alt="A Piece of A Road To Viborg" width="642" height="440" /></a></p>
 <p>This small section of the road (less tha<strong></strong>n 6 km) contains at least 13 turns, 2 railways crossroads and goes through 2 tiny villages. And no, this area is not mountainous at all! Then <strong>why was this section done that way? </strong>The only answer I find appropriate is <strong>costs in short term </strong>(or building costs):</p>
-<ul>
+<ul class="dash">
 <li>cheaper and faster to build a road around a tiny hill than to dig into it.</li>
 <li>cheaper and faster to let a road go near villages than to make additional side roads to these villages.</li>
 </ul>
 <p>But is it cheaper? In <strong>long term case </strong>both operational and customer costs come to stage:</p>
-<ul>
+<ul class="dash">
 <li>time wasted by each driver on turns and crossroads;</li>
 <li>money spent to repair the road which is longer than needed.</li>
 </ul>
@@ -50,7 +50,7 @@ comments: []
 <p>Good idea. The only issue -  two other project managers didn't know how to resolve these issues the time we talked!</p>
 <p>Customer satisfaction depends on many variables including quality, features and dynamic of features' appearing. As most customers (<a title="Early and Late Majority" href="https://en.wikipedia.org/wiki/Early_majority">early and late majority</a>) I'm much more freaked out by bugs than a lack of new thrilling functionality. Even more: my annoyance increases when new features are deployed and important bugs aren't fixed. I stopped using Ubuntu because of bugs reappearing after updates.</p>
 <p>Investments into quality (customer satisfaction in long term) from the very beginning let you save a lot of money in the future and gives you steeper growth curve because with bad quality:</p>
-<ul>
+<ul class="dash">
 <li>developers' engagement decreases;</li>
 <li>number of conflicts inside a team and pressure start growing;</li>
 <li>developers have to switch from new features to firing bugs constantly. I don't need to say why <a title="Context Switching" href="http://www.jrothman.com/2005/01/convincing-management-that-context-switching-is-a-bad-idea/">context switching is a bad idea</a>.</li>
@@ -62,7 +62,7 @@ comments: []
 <p>Another pro point is that it's cheaper to develop high quality product from the first day than try to increase quality later, after months of development.</p>
 <p>What about you? Do you think about customer satisfaction in short term, long term or both?</p>
 <p>Related reading</p>
-<ul>
+<ul class="short">
 <li>Henrik Kniberg's <a title="The Solution to Technical Debt" href="http://blog.crisp.se/2013/07/12/henrikkniberg/the-solution-to-technical-debt">The Solution to Technical Debt</a></li>
 <li>Erik Ries's <a title="Why continuous deployment?" href="http://www.startuplessonslearned.com/2009/06/why-continuous-deployment.html">Why continuous deployment?</a></li>
 </ul>

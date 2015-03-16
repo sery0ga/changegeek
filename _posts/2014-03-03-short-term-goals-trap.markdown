@@ -10,8 +10,12 @@ author:
   url: ''
 author_login: sery0ga
 author_email: skotlov@gmail.com
-image_background: D0C0A7
-image: /images/road.png
+image: 
+    url: /images/road.png
+    background: D0C0A7
+    author: Chris Zielecki
+    author_site: https://www.flickr.com/photos/zanthia/
+
 date: '2014-03-03 09:09:38 +0400'
 date_gmt: '2014-03-03 09:09:38 +0400'
 categories:
@@ -21,10 +25,10 @@ comments: []
 About three weeks ago one of the team members asked me <em>"Do we have short-term goals?</em><em> How will we understand for example in a month if we're good or not?</em>".<em> </em>It took me a moment to realize that I had ones but I hadn't forgotten them with the team. So I promised to write them down and share.
 
 <p><span style="line-height: 1.5em;">A set of short-term goals I created included both qualitative and absolute quantitative goals. Some examples are:</span></p>
-<ul>
-<li>Minimum 5 happy users who create kudos 3-4 times per week</li>
-<li>A number of visits per week grows steadily</li>
-<li>A number of new kudos per week grows steadily</li>
+<ul class="dash">
+<li>minimum 5 happy users who create kudos 3-4 times per week;</li>
+<li>a number of visits per week grows steadily;</li>
+<li>a number of new kudos per week grows steadily.</li>
 </ul>
 <p>Another team member pinged me in a couple of days after I had shared those goals:</p>
 <p><em>"Hey, are we going to use SEO? I know a great guy who can help us with it."</em></p>
@@ -37,4 +41,4 @@ About three weeks ago one of the team members asked me <em>"Do we have short-te
 <p>This is my #kudo to Sanja for opening the discussion. <strong>Do not hesitate to a</strong><strong>ppreciate your colleagues, <a title="Kudobox" href="http://kudobox.co" target="_blank">send a kudo</a>!</strong></p>
 <p><img class="alignnone" alt="" src="http://kudobox.co/kudos/28hBwOZsDqfbPr_lnRvOynw.png" width="669" height="477" /></p>
 
-<p><em>photo credits:  <a href="https://www.flickr.com/photos/zanthia/" target="_blank">Chris Zielecki</a></em></p>
+

@@ -19,7 +19,7 @@ comments:
 Roads in Russia is a byword. There are so few of them (comparing to many other countries) and most of them are so bad.
 
 <blockquote><p>There are only two problems in Russia: fools and roads.</p></blockquote>
-<p>a famous Russian saying reads. And this post about third problem -- <em>"fools who build these roads"</em>.</p>
+<p>a famous Russian saying reads. And this post about third problem &mdash; <em>"fools who build these roads"</em>.</p>
 <p>Several days ago we decided to visit <a href="https://en.wikipedia.org/wiki/Vyborg">Vyborg</a>, a small town standing about 1-hour drive from the place we spent our vacation. The weather was sunny and warm, the mood was even better. The only downside was -- yes, you're right -- the road. Turning the wheel insanely fast to overtake numerous holes I found some fallacies made during building and maintenance of the road which are too common in a product development.</p>
 <h3>What are our goals?</h3>
 <p>On our way we run into this railway crossing</p>

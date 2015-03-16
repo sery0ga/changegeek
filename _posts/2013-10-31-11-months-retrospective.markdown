@@ -10,8 +10,12 @@ author:
   url: ''
 author_login: sery0ga
 author_email: skotlov@gmail.com
-image_background: "000"
-image: /images/change_your_world.png
+image:
+    background: "000"
+    url: /images/change_your_world.png
+    author: Michele McDonough
+    author_site: http://www.flickr.com/photos/28796587@N06/
+
 date: '2013-10-31 08:59:15 +0400'
 date_gmt: '2013-10-31 08:59:15 +0400'
 categories:
@@ -38,5 +42,4 @@ comments: []
 </ol>
 <p>My 30th anniversary is in a few days. It's time to prepare for it so I'm done for now.</p>
 <p><em>If you like this post, do not hesitate to tweet it, comment it or provide me a feedback in any way you like. Your feedback helps me to change.</em></p>
-<p><em>(image credits: <a title="Michelle McDonough" href="http://www.flickr.com/photos/28796587@N06/" target="_blank">Michele McDonough</a>)</em></p>
-</div>
+

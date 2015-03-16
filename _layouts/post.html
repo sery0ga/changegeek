@@ -2,8 +2,18 @@
 layout: default
 ---
 {% if page.image %}
-<div class="header"
-  style="background-color: #{{page.image_background}}; background-image: url('{{ page.image }}');">
+<div class="header">
+  <div class="header-image"
+    style="background-color: #{{page.image.background}}; background-image: url('{{ page.image.url }}');"></div>
+  <div class="credits">
+    {% if page.image.author %}
+      <em>photo credits: <a title="{{ page.image.author }}"
+        href="{{ page.image.author_site }}" target="_blank">{{ page.image.author }}</a>
+      </em>
+    {% endif %}
+  </div>
+</div>
+<div>
 </div>
 {% endif %}
 <div class="post">
@@ -29,7 +39,7 @@ layout: default
         <span class="previous">Previous</span>
       {% endif %}
       {% if page.next %}
-        <a href="{{ page.previous.url }}" class="next">Next</a>
+        <a href="{{ page.next.url }}" class="next">Next</a>
       {% else %}
         <span class="next ">Next</span>
       {% endif %}

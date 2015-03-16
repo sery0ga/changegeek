@@ -10,8 +10,11 @@ author:
   url: ''
 author_login: sery0ga
 author_email: skotlov@gmail.com
-image_background: D0C0A7
-image: /images/meetup.png
+image: 
+    url: /images/meetup.png
+    background: D0C0A7
+    author: Pierre Metivier
+    author_site: http://www.flickr.com/photos/feuilllu/
 date: '2013-11-15 07:47:54 +0400'
 date_gmt: '2013-11-15 07:47:54 +0400'
 categories:
@@ -47,7 +50,7 @@ Two days ago I run a distributed meetup where three teams from different locatio
 </div>
 <p>Google Hangout is a great cheap way to scale meetups. Our participants mentioned two things particularly:</p>
 <div>
-<ul>
+<ul class="dash">
 <li>an opportunity to listen to excellent speakers from remote locations;</li>
 <li>a chamber atmosphere because a number of participants on site wasn't not large.</li>
 </ul>
@@ -55,4 +58,3 @@ Two days ago I run a distributed meetup where three teams from different locatio
 </div>
 <p>Are you interested in organizing a distributed meetup? Or a distributed conference? <a href="mailto:skotlov@gmail.com">Contact me</a> and let's talk!</p>
 
-<p><em>(photo credits: <a title="Pierre Metivier" href="http://www.flickr.com/photos/feuilllu/" target="_blank">Pierre Metivier</a>)</em></p>
