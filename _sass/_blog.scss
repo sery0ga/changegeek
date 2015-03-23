@@ -1,4 +1,7 @@
 .post-list {
+  .post-link {
+    font-family: $additional-font-family;
+  }
   margin: 20px 0;
   list-style: none inside none;
   li {
@@ -8,5 +11,18 @@
   h3 {
     margin-top: 10px;
     margin-left: -2px;
+    a {
+      color: #000;
+    }
+  }
+  .img-circle {
+    margin-top: 80px;
+  }
+}
+.pager {
+  font-family: $additional-font-family;
+  font-size: 16px;
+  a {
+    color: #000;
   }
 }

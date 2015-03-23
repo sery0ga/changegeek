@@ -12,6 +12,7 @@ author_login: sery0ga
 author_email: skotlov@gmail.com
 image: 
     url: /images/road.png
+    small: /images/road_small.png
     background: D0C0A7
     author: Chris Zielecki
     author_site: https://www.flickr.com/photos/zanthia/

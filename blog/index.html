@@ -1,0 +1,50 @@
+---
+layout: default
+---
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-offset-2 col-md-8">
+      <div class="home">
+        <ul class="post-list">
+          {% for post in paginator.posts %}
+            <li>
+              <div class="row">
+                <div class="col-md-3">
+                  {% if post.image.small %}
+                  <img src="{{ post.image.small }}" width="140" height="140" class="img-circle"/>
+                  {% endif %}
+                </div>
+                <div class="col-md-9">
+                  <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+                  <h3><a class="post-link"  href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+                  {{ post.excerpt }}
+                  <a class="post-link"  href="{{ post.url | prepend: site.baseurl }}">Continue reading →</a>
+                </div>
+              </div>
+            </li>
+          {% endfor %}
+        </ul>
+        <!-- Pagination links -->
+        <nav>
+          <ul class="pager">
+            {% if paginator.previous_page %}
+              <li class="previous"><a href="{{ paginator.previous_page_path }}">
+                <span aria-hidden="true">&larr;</span> Newer</a>
+              </li>
+            {% else %}
+              <li class="previous disabled"><a href="#"><span aria-hidden="true">&larr;</span> Newer</a></li>
+            {% endif %}
+            {% if paginator.next_page %}
+               <li class="next"><a href="{{ paginator.next_page_path }}">Older <span aria-hidden="true">&rarr;</span></a></li>
+            {% else %}
+               <li class="next disabled"><a href="{{ paginator.next_page_path }}">Older <span aria-hidden="true">&rarr;</span></a></li>
+            {% endif %}
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- /.container -->

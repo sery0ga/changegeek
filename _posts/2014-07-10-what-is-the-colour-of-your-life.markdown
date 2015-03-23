@@ -13,6 +13,7 @@ author_email: skotlov@gmail.com
 image:
     background: "fff"
     url: /images/rainbow.png
+    small: /images/green_red_small.jpg
     author: jakerome
     author_site: https://www.flickr.com/photos/jakerome/
 date: '2014-07-10 15:50:49 +0400'

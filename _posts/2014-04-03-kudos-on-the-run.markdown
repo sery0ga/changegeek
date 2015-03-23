@@ -12,6 +12,8 @@ author_login: sery0ga
 author_email: skotlov@gmail.com
 date: '2014-04-03 12:35:51 +0400'
 date_gmt: '2014-04-03 12:35:51 +0400'
+image:
+    small: /images/kudo-example_small.png
 categories:
 tags: [Kudobox]
 comments: []

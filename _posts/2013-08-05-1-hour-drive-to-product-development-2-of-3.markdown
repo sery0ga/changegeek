@@ -8,6 +8,8 @@ author:
   login: sery0ga
   email: skotlov@gmail.com
   url: ''
+image:
+  small: /images/meandering_road_small.png
 author_login: sery0ga
 author_email: skotlov@gmail.com
 date: '2013-08-05 07:38:56 +0400'
@@ -25,7 +27,7 @@ comments: []
 </ul>
 <h2>Operational costs and customer satisfaction</h2>
 <p>It's not a part of F1 track on the image below. Unfortunately a piece of our route to Viborg is depicted here.<strong></strong></p>
-<p><a href="http://changegeek.ru//wp-content/uploads/2013/08/meandering_road.png"><img class="alignnone size-full wp-image-88" title="Meandering Road" src="http://changegeek.ru//wp-content/uploads/2013/08/meandering_road.png" alt="A Piece of A Road To Viborg" width="642" height="440" /></a></p>
+<p><a href="/images/meandering_road.png"><img class="alignnone size-full wp-image-88" title="Meandering Road" src="/images/meandering_road.png" alt="A Piece of A Road To Viborg" width="642" height="440" /></a></p>
 <p>This small section of the road (less tha<strong></strong>n 6 km) contains at least 13 turns, 2 railways crossroads and goes through 2 tiny villages. And no, this area is not mountainous at all! Then <strong>why was this section done that way? </strong>The only answer I find appropriate is <strong>costs in short term </strong>(or building costs):</p>
 <ul class="dash">
 <li>cheaper and faster to build a road around a tiny hill than to dig into it.</li>

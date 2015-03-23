@@ -10,6 +10,8 @@ author:
   url: ''
 author_login: sery0ga
 author_email: skotlov@gmail.com
+image: 
+  small: /images/kudobox_small.png
 date: '2014-02-20 09:55:52 +0400'
 date_gmt: '2014-02-20 09:55:52 +0400'
 categories:

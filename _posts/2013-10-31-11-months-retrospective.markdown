@@ -13,6 +13,7 @@ author_email: skotlov@gmail.com
 image:
     background: "000"
     url: /images/change_your_world.png
+    small: /images/change_your_world_small.png
     author: Michele McDonough
     author_site: http://www.flickr.com/photos/28796587@N06/
 

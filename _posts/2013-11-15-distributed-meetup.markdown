@@ -12,6 +12,7 @@ author_login: sery0ga
 author_email: skotlov@gmail.com
 image: 
     url: /images/meetup.png
+    small: /images/meetup_small.png
     background: D0C0A7
     author: Pierre Metivier
     author_site: http://www.flickr.com/photos/feuilllu/

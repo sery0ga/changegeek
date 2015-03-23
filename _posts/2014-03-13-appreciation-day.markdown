@@ -12,6 +12,8 @@ author_login: sery0ga
 author_email: skotlov@gmail.com
 date: '2014-03-13 11:11:50 +0400'
 date_gmt: '2014-03-13 11:11:50 +0400'
+image:
+    small: /images/appreciation_day_small.png
 categories:
 tags: [Happiness, Kudobox]
 comments: []

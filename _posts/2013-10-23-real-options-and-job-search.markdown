@@ -8,6 +8,8 @@ author:
   login: sery0ga
   email: skotlov@gmail.com
   url: ''
+image:
+  small: /images/flight_route.jpg  
 author_login: sery0ga
 author_email: skotlov@gmail.com
 date: '2013-10-23 08:52:42 +0400'
@@ -16,7 +18,7 @@ categories:
 tags: [Job in Europe, Real Options, Experiment]
 comments:
 ---
-<p><img class=" alignright" alt="Europe" src="http://farm1.staticflickr.com/28/46368944_9939cb6e64_m.jpg" width="240" height="192" /></p>
+<p><img class=" alignright" alt="Europe" src="/images/flight_route.jpg" width="240" height="192" /></p>
 As many of you I had used <a title="Real Options Underlie Agile Principles" href="http://www.infoq.com/articles/real-options-enhance-agility" target="_blank">Real Options</a> before I got to know how they were called a few years ago. However, the Era of Real Options in my life began when I started to translate <a title="Commitment" href="http://commitment-thebook.com" target="_blank">"Commitment"</a> by <a title="Chris Matts" href="https://twitter.com/PapaChrisMatts" target="_blank">Chris Matts</a> and <a title="Olav Maassen" href="https://twitter.com/OlavMaassen" target="_blank">Olav Maassen</a>. Many options have been appearing daily since when, in various spheres. So it was just a matter of time for me to come up with an interesting option in my job searching journey.
 
 <h2>Interviews</h2>

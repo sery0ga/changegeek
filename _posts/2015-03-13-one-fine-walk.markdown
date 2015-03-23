@@ -14,6 +14,7 @@ date_gmt: '2015-03-13 09:17:33 +0300'
 image:
     background: D0C0A7
     url: /images/i_walk.png
+    small: /images/i_walk_small.png
 categories:
 tags: [Happiness, Work]
 comments: []

@@ -12,6 +12,7 @@ author_login: sery0ga
 author_email: skotlov@gmail.com
 image:
     url: /images/devops.png
+    small: /images/devops_small.png
     background: 9C8B6F
     author: Michael Coté
     author_site: https://www.flickr.com/photos/cote/

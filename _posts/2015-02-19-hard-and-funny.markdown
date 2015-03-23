@@ -13,6 +13,7 @@ author_email: skotlov@gmail.com
 image:
     background: "000000"
     url: /images/rock_concert.png
+    small: /images/rock_concert_small.png
     author: nasus89
     author_site: https://www.flickr.com/photos/wangster/
 date: '2015-02-19 12:19:27 +0300'

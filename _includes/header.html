@@ -17,16 +17,19 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                   <li id="tour">
-                      <a href="/tour/">Tour</a>
+                      <a href="/">Tour</a>
                   </li>
                   <li id="blog">
-                      <a href="/">Blog</a>
+                      <a href="/blog/">Blog</a>
                   </li>
                   <li id="about">
                       <a href="/about/">About</a>
                   </li>
                   <li id="projects">
                       <a href="/projects/">Projects</a>
+                  </li>
+                  <li>
+                    <a href="http://feeds.feedburner.com/ChangeForHappiness" target="_blank">Subscribe</a>
                   </li>
                 </ul>
             </div>
@@ -38,17 +41,17 @@
 <script>
 $(document).ready(function() {
     var path = window.location.pathname;
-    if (path.indexOf("tour") > -1) {
-        $("#tour").addClass('active');
-    }
     if (path.indexOf("about") > -1) {
         $("#about").addClass('active');
     }
     if (path.indexOf("projects") > -1) {
         $("#projects").addClass('active');
     }
-    if (path == "/" || path == "") {
+    if (path.indexOf("blog") > -1) {
         $("#blog").addClass('active');
+    }
+    if (path == "/" || path.indexOf("tour") > -1) {
+        $("#tour").addClass('active');
     }
 });
 </script>

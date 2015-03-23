@@ -8,6 +8,8 @@ author:
   login: sery0ga
   email: skotlov@gmail.com
   url: ''
+image: 
+  small: /images/kudobox_small.png  
 author_login: sery0ga
 author_email: skotlov@gmail.com
 date: '2014-02-18 14:00:19 +0400'

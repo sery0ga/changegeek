@@ -25,24 +25,28 @@ layout: default
       <p class="post-meta">{{ page.date | date: "%-d %b %Y" }}</p>
     </header>
 
-    <article class="post-content">
-      <div class="chapter">
-        <div class="content">
+    <div class="chapter">
+      <div class="content">
+        <article class="post-content">
           {{ content }}
-        </div>
+        </article>
+        <nav>
+          <ul class="pager">
+            {% if page.previous %}
+              <li class="previous"><a href="{{ page.previous.url }}">
+                <span aria-hidden="true">&larr;</span> Previous</a>
+              </li>
+            {% else %}
+              <li class="previous disabled"><a href="#"><span aria-hidden="true">&larr;</span> Previous</a></li>
+            {% endif %}
+            {% if page.next %}
+               <li class="next"><a href="{{ page.next.url }}">Next <span aria-hidden="true">&rarr;</span></a></li>
+            {% else %}
+               <li class="next disabled"><a href="#">Next <span aria-hidden="true">&rarr;</span></a></li>
+            {% endif %}
+          </ul>
+        </nav>
       </div>
-    </article>
-    <div class="col-md-12 pagination">
-      {% if page.previous %}
-        <a href="{{ page.previous.url }}" class="previous">Previous</a>
-      {% else %}
-        <span class="previous">Previous</span>
-      {% endif %}
-      {% if page.next %}
-        <a href="{{ page.next.url }}" class="next">Next</a>
-      {% else %}
-        <span class="next ">Next</span>
-      {% endif %}
     </div>
   </div>
 

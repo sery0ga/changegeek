@@ -13,6 +13,7 @@ author_email: skotlov@gmail.com
 image_background: 
 image: 
     url: /images/car_race.png
+    small: /images/car_race_small.png
     background: 413D4E
     author: Eddy Clio
     author_site: https://www.flickr.com/photos/eddy_clio/

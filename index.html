@@ -2,34 +2,24 @@
 layout: default
 ---
 
-<div class="container">
-  <div class="row">
-    <div class="col-md-offset-3 col-md-6">
-      <div class="home">
-        <ul class="post-list">
-          {% for post in paginator.posts %}
-            <li>
-              <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-              <h3><a class="post-link"  href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
-              {{ post.excerpt }}
-              <a class="post-link"  href="{{ post.url | prepend: site.baseurl }}">Continue reading </a>
-            </li>
-          {% endfor %}
-        </ul>
-        <!-- Pagination links -->
-        <div class="pagination">
-          {% if paginator.previous_page %}
-            <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
-          {% else %}
-            <span class="previous">Previous</span>
-        {% endif %}
-          <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-          {% if paginator.next_page %}
-            <a href="{{ paginator.next_page_path }}" class="next">Next</a>
-          {% else %}
-            <span class="next ">Next</span>
-          {% endif %}
-        </div>
+<div class="header">
+  <div class="header-image"
+    style="background-color: #fff; background-image: url('/images/rainbow.png');"></div>
+  <div class="credits">
+    <em>photo credits: <a title="jakerome"
+      href="https://www.flickr.com/photos/jakerome/" target="_blank">jakerome</a>
+    </em>
+  </div>
+</div>
+<div class="container landing">
+  <div class="col-md-offset-1 col-md-10">
+    <div class="row">
+      <h1 class="text-center">Can I visit your company?</h1>
+      <p>I've been a big fan and active promoter of organizations which care about happiness and engagement of their employees for two years. I learnt a lot by reading books and articles, watching interviews and talks. Now I want to visit awesome companies, talk to people who work there, see how they produce great products.</p>
+      <p>I’m going on a world tour to learn what fantastic, transparent and innovative companies are doing, share my experience and blog about my findings.</p>
+      <h4 class="text-center">I would love to visit your company</h4>
+      <div class="text-center invite-block">
+        <a href="mailto:skotlov@gmail.com" class="btn btn-invite btn-lg btn-default">Invite me</a>
       </div>
     </div>
   </div>
