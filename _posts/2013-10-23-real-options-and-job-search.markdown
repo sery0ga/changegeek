@@ -3,6 +3,8 @@ layout: post
 status: publish
 published: true
 title: Real Options And Job Search
+excerpt: <p>As many of you I had used <a title="Real Options Underlie Agile Principles" href="http://www.infoq.com/articles/real-options-enhance-agility" target="_blank">Real Options</a> before I got to know how they were called a few years ago. However, the Era of Real Options in my life began when I started to translate <a title="Commitment" href="http://commitment-thebook.com" target="_blank">"Commitment"</a> by <a title="Chris Matts" href="https://twitter.com/PapaChrisMatts" target="_blank">Chris Matts</a> and <a title="Olav Maassen" href="https://twitter.com/OlavMaassen" target="_blank">Olav Maassen</a>. Many options have been appearing daily since when, in various spheres. So it was just a matter of time for me to come up with an interesting option in my job searching journey.</p>
+
 author:
   display_name: sery0ga
   login: sery0ga

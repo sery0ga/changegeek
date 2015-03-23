@@ -3,6 +3,8 @@ layout: post
 status: publish
 published: true
 title: Higher purpose gives more options
+excerpt: <p>I had an interview a couple of weeks ago for a Scrum Master role in a very nice company in Berlin. Not only they make amazing products but their website and information about them on the internet prove they are a bunch of talented energized creators. I thought it would be great to join them...</p>
+
 author:
   display_name: sery0ga
   login: sery0ga

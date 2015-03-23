@@ -3,6 +3,8 @@ layout: post
 status: publish
 published: true
 title: 1-hour Drive to Product Development (2 of 3)
+excerpt: <p>Investments into quality (customer satisfaction in long term) from the very beginning let you save a lot of money in the future and gives you steeper growth curve because with bad quality...</p>
+exceprt: 
 author:
   display_name: sery0ga
   login: sery0ga

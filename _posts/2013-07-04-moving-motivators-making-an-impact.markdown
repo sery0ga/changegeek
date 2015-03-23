@@ -3,6 +3,8 @@ layout: post
 status: publish
 published: true
 title: 'Moving Motivators: Making An Impact'
+excerpt: <p>Games are powerful tools. As any powerful tool they can be used very wrong. I did it many times myself. At the same time being applied at the right moment they may have a massive effect. Here's a story.</p>
+
 author:
   display_name: sery0ga
   login: sery0ga

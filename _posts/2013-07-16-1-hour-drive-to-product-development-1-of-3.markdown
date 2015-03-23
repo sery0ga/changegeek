@@ -3,6 +3,7 @@ layout: post
 status: publish
 published: true
 title: 1-hour Drive to Product Development (1 of 3)
+excerpt: <p>Doesn't matter you work with a railway crossing or a statistics engine, you should always remember <strong>what goals are behind them and if you achieve them by cheap embellishment</strong>.</p>
 author:
   display_name: sery0ga
   login: sery0ga

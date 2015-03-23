@@ -3,6 +3,8 @@ layout: post
 status: publish
 published: true
 title: Dare To Say I'm Sorry
+excerpt: <p>My fiancee Maria and her former colleague Natalia co-organized a meeting of top managers of state companies last Friday. After the event was over they found themselves in a cafe with one of the top managers at a table nearby.</p>
+
 author:
   display_name: sery0ga
   login: sery0ga

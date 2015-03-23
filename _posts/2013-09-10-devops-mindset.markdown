@@ -3,6 +3,8 @@ layout: post
 status: publish
 published: true
 title: DevOps Mindset
+excerpt: <p>Separating development, quality assurance and operations is a bad idea. It's a <strong>reductionist </strong>approach and any system thinker tells you it doesn't work for complex systems. DevOps is a big step forward as it is much more <strong>holistic</strong> <strong>view</strong> on a process of software development.</p>
+
 author:
   display_name: sery0ga
   login: sery0ga

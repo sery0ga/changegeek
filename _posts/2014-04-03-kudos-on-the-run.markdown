@@ -3,6 +3,7 @@ layout: post
 status: publish
 published: true
 title: Kudos On The Run
+excerpt: <p>After two weeks of rush development we are glad to present a mobile-friendly version of Kudobox. It is easy to use, looks nice and, most important, gives you power to appreciate anyone from anywhere!</p>
 author:
   display_name: sery0ga
   login: sery0ga
