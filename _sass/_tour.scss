@@ -1,11 +1,61 @@
 .tour {
   .row {
-    padding: 50px 0px 50px;
+    padding: 20px 0px 20px;
+  }
+  .col-md-4 {
+    padding: 20px;
   }
   h1 {
     margin-top: 0;
   }
   .carousel-control {
     width: 45%;
+  }
+  font-family: $additional-font-family;
+  .meetings {
+    font-size: 16px;
+    .img-circle {
+      border: 2px #ccc solid;
+    }
+    .invite-block {
+      .btn-invite {
+        margin: 20px;
+        margin-bottom: 50px;
+        font-weight: 300;
+        font-size: 25px;
+        color: #000;
+        background-color: transparent;
+        width: 50%;
+      }
+    }
+  }
+  .recommend {
+    .social-info {
+      span {
+        font-size: 12px;
+        color: #afafaf;
+      }
+    }
+    .text {
+      font-family: $base-font-family;
+      padding-top: 20px;
+      font-size: 18px;
+      &:before {
+        display: block;
+        padding-left: 0px;
+        content: "\201C";
+        font-size: 80px;
+        position: absolute;
+        left: -20px;
+        top: -20px;
+        color: #afafaf;
+      }
+    }
+  }
+  .ican {
+    div {
+      font-family: $base-font-family;
+      font-size: 18px;
+    }
   }
 }

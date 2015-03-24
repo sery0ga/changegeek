@@ -1,5 +1,9 @@
 $(document).ready(function() {
+  $('.meetings').hide();
+  $('#helsinki-meetings').show();
   $('#cities').on('slide.bs.carousel', function (e) {
-    console.log($(e.relatedTarget).attr('id'));
+    var id = $(e.relatedTarget).attr('id') + "-meetings";
+    $('.meetings').hide();
+    $('#' + id).show();
   });
 });
