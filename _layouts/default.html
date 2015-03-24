@@ -7,6 +7,34 @@
 
     {% include header.html %}
 
+    <div class="modal fade contact-form" id="contactForm" tabindex="-1" role="dialog" aria-labelledby="contactFormLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="contactFormLabel">Invite Sergey</h4>
+          </div>
+          <div class="modal-body">
+            <p>You are curious to click an annoying green button. Is your curiosity
+            big enough to invite me to your company?</p>
+            <form id="contact" action="https://getsimpleform.com/messages?form_api_token=eeb2bca2ed485d486bcb382f0f8599f4" method="post">
+              <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter email">
+              </div>
+              <div class="form-group">
+                <label for="text">Message</label>
+                <textarea class="form-control" id="text"></textarea>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="submit" form="contact" class="btn btn-tour">Contact Sergey</button>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="page-content">
       {{ content }}
     </div>

@@ -1,5 +1,6 @@
 ---
 layout: default
+comments: true
 ---
 {% if page.image %}
 <div class="header">
@@ -32,20 +33,36 @@ layout: default
         </article>
         <nav>
           <ul class="pager">
+            {% if page.next %}
+               <li class="previous"><a href="{{ page.next.url }}"><span aria-hidden="true">&larr;</span> Next</li>
+            {% else %}
+               <li class="previous disabled"><a href="#"><span aria-hidden="true">&larr;</span> Next</a></li>
+            {% endif %}
             {% if page.previous %}
-              <li class="previous"><a href="{{ page.previous.url }}">
-                <span aria-hidden="true">&larr;</span> Previous</a>
+              <li class="next"><a href="{{ page.previous.url }}">
+                Previous <span aria-hidden="true">&rarr;</a>
               </li>
             {% else %}
-              <li class="previous disabled"><a href="#"><span aria-hidden="true">&larr;</span> Previous</a></li>
-            {% endif %}
-            {% if page.next %}
-               <li class="next"><a href="{{ page.next.url }}">Next <span aria-hidden="true">&rarr;</span></a></li>
-            {% else %}
-               <li class="next disabled"><a href="#">Next <span aria-hidden="true">&rarr;</span></a></li>
+              <li class="next disabled"><a href="#">Previous <span aria-hidden="true">&rarr;</a></li>
             {% endif %}
           </ul>
         </nav>
+        {% if page.comments %}
+          <div id="disqus_thread"></div>
+          <script type="text/javascript">
+              /* * * CONFIGURATION VARIABLES * * */
+              var disqus_shortname = 'changegeek';
+
+              /* * * DON'T EDIT BELOW THIS LINE * * */
+              (function() {
+                  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+              })();
+          </script>
+          <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript"
+            rel="nofollow">comments powered by Disqus.</a></noscript>
+        {% endif %}
       </div>
     </div>
   </div>
