@@ -17,7 +17,10 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                   <li id="tour">
-                      <a href="/">Tour</a>
+                      <a href="/tour">Tour</a>
+                  </li>
+                  <li id="research">
+                      <a href="/research">Research</a>
                   </li>
                   <li id="blog">
                       <a href="/blog/">Blog</a>
@@ -44,8 +47,11 @@ $(document).ready(function() {
     if (path.indexOf("blog") > -1) {
         $("#blog").addClass('active');
     }
-    if (path == "/" || path.indexOf("tour") > -1) {
+    if (path.indexOf("tour") > -1) {
         $("#tour").addClass('active');
+    }
+    if (path.indexOf("research") > -1) {
+        $("#research").addClass('active');
     }
 });
 </script>
