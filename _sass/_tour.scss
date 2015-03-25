@@ -75,6 +75,11 @@
       }
     }
   }
+  .text {
+    font-family: $base-font-family;
+    padding-top: 20px;
+    font-size: 18px;
+  }
   .recommend {
     .social-info {
       span {
@@ -84,20 +89,15 @@
         color: #afafaf;
       }
     }
-    .text {
-      font-family: $base-font-family;
-      padding-top: 20px;
-      font-size: 18px;
-      &:before {
-        display: block;
-        padding-left: 0px;
-        content: "\201C";
-        font-size: 80px;
-        position: absolute;
-        left: -20px;
-        top: -20px;
-        color: #afafaf;
-      }
+    .text:before {
+      display: block;
+      padding-left: 0px;
+      content: "\201C";
+      font-size: 80px;
+      position: absolute;
+      left: -20px;
+      top: -20px;
+      color: #afafaf;
     }
   }
   .ican {
