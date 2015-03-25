@@ -60,14 +60,14 @@ body {
 
 .infoblock {
     width: 259px;
-    height: 160px;
+    height: 150px;
     background-color: #fff;
     padding: 25px 20px;
     border: solid 2px #E8E8E8;
     &.positioned {
         position: absolute;
         left: 25%;
-        top: 160px;
+        top: 220px;
     }
     img {
         width: auto;
@@ -115,10 +115,10 @@ body {
             color: $brand-color;
         }
         &.affix-top {
-            padding-top: 20px;
+            padding-top: 40px;
         }
         &.affix {
-            top: 50px;
+            top: 60px;
         }
     }
 }
