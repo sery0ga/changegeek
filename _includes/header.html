@@ -25,9 +25,9 @@
                   <li id="blog">
                       <a href="/blog/">Blog</a>
                   </li>
-                  <li>
+<!--                   <li>
                     <a href="http://feeds.feedburner.com/ChangeForHappiness" target="_blank">Subscribe</a>
-                  </li>
+                  </li> -->
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -35,17 +35,3 @@
     </nav>
   </div>
 </header>
-<script>
-$(document).ready(function() {
-    var path = window.location.pathname;
-    if (path.indexOf("blog") > -1) {
-        $("#blog").addClass('active');
-    }
-    if (path.indexOf("tour") > -1) {
-        $("#tour").addClass('active');
-    }
-    if (path.indexOf("research") > -1) {
-        $("#research").addClass('active');
-    }
-});
-</script>

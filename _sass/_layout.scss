@@ -43,17 +43,21 @@ body {
     }
 }
 
-.header {
+.credits {
+    padding-right: 10px;
+    padding-left: 10px;
     text-align: right;
     color: #CCC;
     font-size: 12px;
+    font-family: $base-font-family;
+}
+.header {
     .header-image {
         height: 300px;
         background-repeat: no-repeat;
         background-position: center;
     }
     .credits {
-        padding-right: 10px;
         margin-top: 10px;
     }
 }

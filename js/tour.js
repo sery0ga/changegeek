@@ -1,9 +1,14 @@
-$(document).ready(function() {
+function hideCityData() {
   $('.meetings').hide();
-  $('#helsinki-meetings').show();
+  $('.credits').children('div').hide();
+}
+
+$(document).ready(function() {
+  hideCityData();
+  $('.helsinki').show();
   $('#cities').on('slide.bs.carousel', function (e) {
-    var id = $(e.relatedTarget).attr('id') + "-meetings";
-    $('.meetings').hide();
-    $('#' + id).show();
+    hideCityData();
+    var className = $(e.relatedTarget).attr('id');
+    $('.' + className).show();
   });
 });
