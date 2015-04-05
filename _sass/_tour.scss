@@ -110,7 +110,6 @@
     .invite-block {
       .btn-invite {
         margin: 20px;
-        margin-bottom: 50px;
         font-weight: 300;
         font-size: 25px;
         color: #000;
@@ -158,8 +157,14 @@
 .contact-form {
   .modal-content {
     border-top: 2px $green solid;
-    .modal-header, .modal-footer {
+    label {
+      font-size: 16px;
+    }
+    .modal-header, .modal-footer, label {
       font-family: $additional-font-family;
+    }
+    button {
+      font-size: 20px;
     }
   }
 }
