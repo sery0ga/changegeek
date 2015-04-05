@@ -31,7 +31,7 @@ body {
         border-top: 2px solid #fff;
         border-bottom: 2px solid #fff;
         &.active {
-            border-top: 2px solid $brand-color;
+            border-top: 2px solid $green;
             a, a:hover {
                 background: none;
                 color: #000;
@@ -44,14 +44,26 @@ body {
 }
 
 .credits {
-    padding-right: 10px;
-    padding-left: 10px;
+    top: 5px;
+    right: 10px;
+    position: absolute;
+    z-index: 100;
     text-align: right;
-    color: #CCC;
-    font-size: 12px;
-    font-family: $base-font-family;
+    color: $dark-grey;
+    font-size: 14px;
+    font-family: $additional-font-family;
+    &.light {
+        color: $light-grey;
+        a {
+            color: $light-grey;
+        }
+    }
+    a {
+        color: $dark-grey;
+    }
 }
 .header {
+    position: relative;
     .header-image {
         height: 300px;
         background-repeat: no-repeat;
@@ -110,13 +122,13 @@ body {
             font-weight: 500;
             color: #000;
             &:hover {
-                color: $brand-color;
+                color: $green;
                 background: none;
             }
         }
 
         .active > a {
-            color: $brand-color;
+            color: $green;
         }
         &.affix-top {
             padding-top: 40px;

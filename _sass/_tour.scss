@@ -1,21 +1,18 @@
 .btn-tour {
-  background-color: $brand-color;
+  background-color: $orange;
   color: #fff;
-  border: 1px #ccc solid;
   &:hover {
-    background-color: darken($brand-color, 10%);
-    border: 1px #ccc solid;
+    background-color: darken($orange, 10%);
     color: #fff;
   }
   &:active {
-    background-color: $brand-color;
-    border: 1px #ccc solid;
+    background-color: $orange;
     color: #fff;
   }
 }
 
 .tour-badge {
-  margin-top: -30px;
+  margin-top: -43px;
   margin-bottom: -25px;
   position: relative;
   button {
@@ -28,11 +25,16 @@
 
 
 .tour {
+  font-family: $additional-font-family;
+
+  .clean-fix-left {
+    padding-left: 0;
+  }
   .row {
     padding: 20px 0px 20px;
   }
   .col-md-4 {
-    padding: 20px;
+    padding: 20px 40px 20px 0;
   }
   h2 {
     margin-top: 0;
@@ -49,27 +51,31 @@
   .carousel-control {
     width: 45%;
   }
-  font-family: $additional-font-family;
+  .tour-menu {
+    font-size: 14px;
+    background-color: $light-grey;
+
+  }
   .meetings {
     font-size: 16px;
     .meeting-cell {
-      // border-bottom: 1px #ccc solid;
+      line-height: 175%;
       img {
         border: 2px #ccc solid;
         margin-right: 10px;
         width: 110px;
         height: 110px;
       }
-      .col-md-7 > span {
-        font-size: 12px;
-        color: #ccc;
-        font-style: italic;
-        font-family: $base-font-family;
-      }
       .label {
-        float: right;
+        font-style: normal;
         margin-right: 30px;
         display: inline-block;
+      }
+      .col-md-7 > div {
+        font-size: 12px;
+        color: $dark-grey;
+        font-style: italic;
+        font-family: $base-font-family;
       }
     }
     .invite-block {
@@ -91,11 +97,12 @@
   }
   .recommend {
     .social-info {
-      span {
+      div {
+        padding-top: 15px;
         font-size: 12px;
         font-family: $base-font-family;
         font-style: italic;
-        color: #afafaf;
+        color: $dark-grey;
       }
     }
     .text:before {
@@ -121,7 +128,7 @@
 
 .contact-form {
   .modal-content {
-    border-top: 2px $brand-color solid;
+    border-top: 2px $green solid;
     .modal-header, .modal-footer {
       font-family: $additional-font-family;
     }

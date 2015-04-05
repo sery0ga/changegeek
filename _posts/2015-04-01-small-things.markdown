@@ -11,6 +11,7 @@ author_login: sery0ga
 author_email: skotlov@gmail.com
 image:
     background: fff
+    light: light
     url: /images/small_things.jpg
     small: /images/maverick.jpg
     author: JD Hancock
