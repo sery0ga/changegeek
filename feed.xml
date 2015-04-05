@@ -13,6 +13,9 @@
         {% if post.author.name %}
           <dc:creator>{{ post.author.name | xml_escape }}</dc:creator>
         {% endif %}
+        {% if post.image.url %}
+          <img src="{{ site.url }}{{ post.image.url }}"/>
+        {% endif %}
         {% if post.excerpt %}
           <description>{{ post.excerpt | xml_escape }}</description>
         {% else %}
