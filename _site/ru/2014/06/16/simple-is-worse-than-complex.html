@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width initial-scale=1">
+
+  <title>Простота хуже запутанности</title>
+  <meta name="description" content="Я сейчас изучаю Cynefin. 30 мая на IT Global Meetup я увидел, что тема интересна другим и решил поделиться наблюдениями.">
+  <!-- Latest compiled and minified CSS & JS -->
+  <link rel="stylesheet" media="screen" href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <script src="//code.jquery.com/jquery.js"></script>
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://changegeek.ru/blog/2014/06/16/simple-is-worse-than-complex.html">
+  <link rel="alternate" type="application/atom+xml" title="ChangeGeek" href="http://changegeek.ru/feed.xml" />
+</head>
+
+
+  <body data-spy="scroll" data-target=".toc">
+
+    <header class="site-header">
+  <div class="wrapper">
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-static-top" role="navigation">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">ChangeGeek</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                  <li id="tour">
+                      <a href="/tour">Tour</a>
+                  </li>
+                  <li id="research">
+                      <a href="/research">Research</a>
+                  </li>
+                  <li id="blog">
+                      <a href="/blog/">Blog</a>
+                  </li>
+<!--                   <li>
+                    <a href="http://feeds.feedburner.com/ChangeForHappiness" target="_blank">Subscribe</a>
+                  </li> -->
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+    </nav>
+  </div>
+</header>
+
+
+    <div class="modal fade contact-form" id="contactForm" tabindex="-1" role="dialog" aria-labelledby="contactFormLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="contactFormLabel">Let's rock!</h4>
+          </div>
+          <div class="modal-body">
+            <p>I'm glad to meet new people no matter the reason: visiting your
+            organisation, joining a meetup or discuss web development. Leave me a message
+            or ping me on any social network.</p>
+            <ul class="list-inline">
+              <li><a href="http://twitter.com/skotlov" target="_blank" class="twitter"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="http://linkedin.com/in/skotlov" target="_blank" class="linkedin"><i class="fa fa-linkedin"></i></a></li>
+              <li><a href="http://www.facebook.com/skotlov" target="_blank" class="facebook"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="https://github.com/sery0ga" target="_blank" class="github"><i class="fa fa-github"></i></a></li>
+            </ul>
+            <form id="contact" action="https://getsimpleform.com/messages?form_api_token=eeb2bca2ed485d486bcb382f0f8599f4" method="post">
+              <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="Enter email">
+              </div>
+              <div class="form-group">
+                <label for="text">Message</label>
+                <textarea name="text" class="form-control" id="text" rows="7"></textarea>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="submit" form="contact" class="btn btn-tour btn-lg">Contact Sergey</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="page-content">
+
+<div class="post">
+  <div class="left-column">
+  </div>
+  <div class="right-column">
+    <header class="post-header">
+      <h1 class="post-title">Простота хуже запутанности</h1>
+      <p class="post-meta">16 Jun 2014</p>
+    </header>
+
+    <div class="chapter">
+      <div class="content">
+        <article class="post-content">
+          <p>Я сейчас изучаю Cynefin. 30 мая на <a title="Piter United" href="http://piter-united.ru" target="_blank">IT Global Meetup</a> я увидел, что тема интересна другим и решил поделиться наблюдениями.</p>
+
+<p><img alt="cynefin" src="/images/ru/cynefin1.jpg" width="350" height="368" /></p>
+
+<pre><i>Если вы не знаете, что такое Cynefin, начните с прочтения </i><a title="Модель Кеневин" href="http://www.unusual-concepts.ru/blog/2012/12/cynefin/" target="_blank"><span style="text-decoration: underline;"><i>статьи</i></span></a><i> Сергея Дмитриева. </i></pre>
+<p>Один из вопросов, который меня особенно зацепил — это <strong>динамика в Кеневин</strong>. Проще говоря, переход из одного домена в другой. На встрече мы обсуждали несколько возможных переходов, в том числе, и переходы из домена Хаоса, о которых дальше пойдет речь.</p>
+<p>Дейв Сноуден <a title="The New Dynamics Of Strategy" href="http://xenia.media.mit.edu/~brooks/storybiz/kurtz.pdf" target="_blank">рассматривает</a> два интересных с практической точки зрения перехода из Хаоса: либо в Простой домен, либо в Комплексный/Запутанный домен. <strong>Переход в Простой домен</strong> — это наведение порядка, установление авторитаризма и, возможно, тирании. Подобный подход можно видеть каждый день: введение миротворческих войск в зону конфликта, разнимание родителями дерущихся детей с их последующим наказанием, регулирование полицейскими перекрестка, на котором отключились светофоры. <strong>Переход в Комплексный домен</strong> менее очевиден и осуществляется путем создания либо <em>аттракторов, вокруг которых люди смогут самоорганизоваться</em>, либо <em>границ, внутри которых происходит самоорганизация</em>. Один из примеров аттракторов — это всегда горящие зеленые знаки “Выход”, позволяющие людям быстро сориентироваться и покинуть здание в случае экстренной ситуации. Второй пример найдете по <a title="Piano Stairs" href="http://www.youtube.com/watch?v=2lXh2n0aPyw" target="_blank"><span style="text-decoration: underline;">ссылке</span></a>. Примеров границ также великое множество: разметка на парковке у магазина, забор вокруг огорода и поребрик между тротуаром и проезжей частью (или бордюр, если вы в Москве).</p>
+<p>В работе с командами/компаниями встречаются оба перехода, однако большинство менеджеров более склонны к первому сценарию, чем ко второму. <strong>Кто из руководителей в условиях кризиса не приходил в команду и не начинал объяснять, что и как нужно делать, пусть бросит в меня камень.</strong> К сожалению, привлекательность первого сценария нивелируются его меньшей эффективностью. Для примера я вернусь к перекрестку, на котором отключились светофоры.</p>
+<p>Стандартный вариант развития в этом случае — образующийся затор, так как все начинают лезть, не обращая внимания на знаки. Полицейские обычно приезжают позже, когда уже образовалась порядочная пробка, и начинают регулировать самостоятельно. Говоря в терминах Cynefin, они переводят ситуацию из домена Хаоса в Простой домен. Мои собственные субъективные наблюдения действий регулировщиков, а также <a title="Round-abound" href="http://www.youtube.com/watch?v=OvoFjirrgYA&amp;feature=youtu.be&amp;t=4m45s" target="_blank"><span style="text-decoration: underline;">тест</span></a>,  проведенный <em>Разрушителями Легенд</em>, имеют однозначные выводы: <strong>система начинает работать, но весьма неэффективно</strong>. Если бы полицейские <strong>сделали ставку на самоорганизацию </strong>и <a title="Round-abound" href="http://www.hlswatch.com/2012/11/02/nassau-police-turn-chaos-into-simplicity/" target="_blank"><span style="text-decoration: underline;">ввели круговое движение</span></a> (создали границы), то пропускная способность перекрестков была бы выше.</p>
+<p>Когда наступает <del>жопа</del> хаос, мы стараемся из него побыстрее выбраться и наш сценарий поведения прост: <em>действуй - ощути - реагируй</em>. Однако <strong>действуй</strong> в большинстве случаев не отменяет необходимость <strong>думать</strong>. Благо, проблемы с релизом или недовольный клиент — это не падающий с 10000 метров Боинг 737. У нас есть немного больше времени.</p>
+<p>Начиная командовать и переводя ситуацию из хаоса в Простой домен, мы не только подрываем самоорганизацию (<i>знаю, знаю, ваш коуч уже плешь  этим проел!</i>), но и создаем систему, которая менее эффективна. В следующий раз, прежде чем бежать раздавать указания, <strong>поищите, как можно изменить существующую систему и помочь сотрудникам самостоятельно выбраться из кризиса.</strong></p>
+<p>&nbsp;</p>
+
+<p>PS: всегда есть контр-примеры. Пример того, как переход в Простой домен более эффективен, взят <a title="Пожар в &quot;Ампир-театр&quot;" href="http://fire-truck.ru/encyclopedia/pozharyi-v-teatrah.html" target="_blank"><span style="text-decoration: underline;">отсюда</span></a>. <i>“В Эдинбурге во время вечернего спектакля загорелся «Ампир-</i><em>те</em><i>атр», рассчитанный на 2000 зрителей. Огонь быстро охватил сцену. Публика бросилась к выходам. В это время директор театра выбежал на авансцену и приказал опустить противопожарный занавес, что было четко и быстро выполнено рабочими сцены. Одновременно он отдал распоряжение музыкантам играть национальный гимн. Его громкий, уверенный голос, призывающий зрителей к спокойствию и организованному выходу, подействовал успокаивающе</i>. <i>Паника улеглась, и зрители спокойно покинули театр.” </i></p>
+
+
+        </article>
+        <nav>
+          <ul class="pager">
+
+               <li class="previous"><a href="/ru/2014/06/19/success-stories.html"><span aria-hidden="true">&larr;</span> Next</li>
+
+
+              <li class="next"><a href="/blog/2014/02/11/the-price-of-trust.html">
+                Previous <span aria-hidden="true">&rarr;</a>
+              </li>
+
+          </ul>
+        </nav>
+
+          <div id="disqus_thread"></div>
+          <script type="text/javascript">
+              /* * * CONFIGURATION VARIABLES * * */
+              var disqus_shortname = 'changegeek';
+
+              /* * * DON'T EDIT BELOW THIS LINE * * */
+              (function() {
+                  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+              })();
+          </script>
+          <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript"
+            rel="nofollow">comments powered by Disqus.</a></noscript>
+
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+    </div>
+
+    <footer class="site-footer">
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-42138624-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+<!--   <div class="wrapper">
+
+    <h2 class="footer-heading">ChangeGeek</h2>
+
+    <div class="footer-col-wrapper">
+    </div>
+
+  </div>
+ -->
+  <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script src="/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="/js/tour.js" type="text/javascript" charset="utf-8" async defer></script>
+  <script>
+  $(document).ready(function() {
+      var path = window.location.pathname;
+      if (path.indexOf("blog") > -1) {
+          $("#blog").addClass('active');
+      }
+      if (path.indexOf("tour") > -1) {
+          $("#tour").addClass('active');
+      }
+      if (path.indexOf("research") > -1) {
+          $("#research").addClass('active');
+      }
+  });
+  </script>
+</footer>
+
+
+  </body>
+</html>

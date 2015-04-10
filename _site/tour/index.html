@@ -9,8 +9,10 @@
   <title>ChangeGeek</title>
   <meta name="description" content="Sergey Kotlov's blog where I write about my experience working at the international network of businesses called Happy Melly, helping people be happy at work and visiting inspiring organisations around the world which care about happiness of their employees.
 ">
-  <!-- Bootstrap Core CSS -->
-  <link href="/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Latest compiled and minified CSS & JS -->
+  <link rel="stylesheet" media="screen" href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <script src="//code.jquery.com/jquery.js"></script>
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
   <link rel="stylesheet" href="/css/main.css">
@@ -48,9 +50,14 @@
                   <li id="blog">
                       <a href="/blog/">Blog</a>
                   </li>
-<!--                   <li>
+                  <li>
                     <a href="http://feeds.feedburner.com/ChangeForHappiness" target="_blank">Subscribe</a>
-                  </li> -->
+                  </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                  <li id="ru-blog">
+                      <a href="/ru/">Блог на русском</a>
+                  </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -287,7 +294,7 @@
             <br/>
             <div>website: <a href="http://vincit.fi" target="_blank">vincit.fi</a></div>
             <div>case study: not available yet</div>
-            <span class="label label-danger"><i class="glyphicon glyphicon-exclamation-sign"></i> waiting</span>
+            <span class="label label-success"><i class="glyphicon glyphicon-ok"></i> scheduled</span>
           </div>
         </div>
       </div>
@@ -317,7 +324,7 @@
             <br/>
             <div>website: <a href="https://king.com/" target="_blank">king.com</a></div>
             <div>case study: not available yet</div>
-            <span class="label label-danger"><i class="glyphicon glyphicon-exclamation-sign"></i> declined</span>
+            <span class="label label-warning"><i class="glyphicon glyphicon-hour-glass"></i> confirmed</span>
           </div>
         </div>
         <div class="col-md-4 meeting-cell">
@@ -531,6 +538,9 @@
       }
       if (path.indexOf("research") > -1) {
           $("#research").addClass('active');
+      }
+      if (path.indexOf("ru-blog") > -1) {
+          $("#ru-blog").addClass('active');
       }
   });
   </script>

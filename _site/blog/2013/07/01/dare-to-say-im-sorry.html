@@ -8,8 +8,10 @@
 
   <title>Dare To Say I'm Sorry</title>
   <meta name="description" content="My fiancee Maria and her former colleague Natalia co-organized a meeting of top managers of state companies last Friday. After the event was over they found ...">
-  <!-- Bootstrap Core CSS -->
-  <link href="/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Latest compiled and minified CSS & JS -->
+  <link rel="stylesheet" media="screen" href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <script src="//code.jquery.com/jquery.js"></script>
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
   <link rel="stylesheet" href="/css/main.css">
@@ -47,9 +49,14 @@
                   <li id="blog">
                       <a href="/blog/">Blog</a>
                   </li>
-<!--                   <li>
+                  <li>
                     <a href="http://feeds.feedburner.com/ChangeForHappiness" target="_blank">Subscribe</a>
-                  </li> -->
+                  </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                  <li id="ru-blog">
+                      <a href="/ru/">Блог на русском</a>
+                  </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -193,6 +200,9 @@
       }
       if (path.indexOf("research") > -1) {
           $("#research").addClass('active');
+      }
+      if (path.indexOf("ru-blog") > -1) {
+          $("#ru-blog").addClass('active');
       }
   });
   </script>
