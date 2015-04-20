@@ -8,6 +8,22 @@
     <atom:link href="http://changegeek.ru/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Welcome to Vincity</title>
+        
+        
+          <img src="http://changegeek.ru/images/vincit.jpg"/>
+        
+        
+          <description>&lt;p&gt;My arrival to Tampere wasn’t welcoming. It was snowing, windy and quite cold. I realized that I made a mistake leaving my gloves at home. Morning city didn’t make a slightest attempt to improve the situation. WiFi in the cafe I chose because of the sign “Free WiFi” was broken. Three random commuters I asked about the nearest coffee shop couldn’t help me. Nevertheless I didn’t allow those small troubles to spoil my mood and I was right. Several hours in Vincit are worth much more “suffering” than I got.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Fri, 17 Apr 2015 00:00:00 +0200</pubDate>
+        <link>http://changegeek.ru/blog/2015/04/17/welcome-to-vincity.html</link>
+        <guid isPermaLink="true">http://changegeek.ru/blog/2015/04/17/welcome-to-vincity.html</guid>
+      </item>
+    
+      <item>
         <title>FutuFriday</title>
         
         
@@ -141,20 +157,6 @@
         <pubDate>Thu, 03 Apr 2014 10:35:51 +0200</pubDate>
         <link>http://changegeek.ru/blog/2014/04/03/kudos-on-the-run.html</link>
         <guid isPermaLink="true">http://changegeek.ru/blog/2014/04/03/kudos-on-the-run.html</guid>
-      </item>
-    
-      <item>
-        <title>Appreciation Day</title>
-        
-        
-        
-          <description>&lt;p&gt;Last Thursday I was approached by two guys at local startup gathering to discuss what a value of &lt;a title=&quot;Kudo Box&quot; href=&quot;http://www.management30.com/workout/kudo-box/&quot; target=&quot;_blank&quot;&gt;Kudobox&lt;/a&gt; as a practice and a value of &lt;a title=&quot;Kudobox&quot; href=&quot;http://kudobox.co&quot; target=&quot;_blank&quot;&gt;online Kudobox&lt;/a&gt; particularly is. There were a lot to say but one of the best stories I could tell them appeared the next day. And it was &lt;a title=&quot;ACA IT Solutions&quot; href=&quot;http://www.aca-it.be/&quot; target=&quot;_blank&quot;&gt;ACA IT-Solutions&lt;/a&gt; which related it…&lt;/p&gt;
-
-</description>
-        
-        <pubDate>Thu, 13 Mar 2014 08:11:50 +0100</pubDate>
-        <link>http://changegeek.ru/blog/2014/03/13/appreciation-day.html</link>
-        <guid isPermaLink="true">http://changegeek.ru/blog/2014/03/13/appreciation-day.html</guid>
       </item>
     
   </channel>
