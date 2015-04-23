@@ -98,6 +98,9 @@ body {
   min-height: 51px;
   position: relative; }
 
+.share span {
+  box-sizing: content-box; }
+
 .site-footer {
   margin-top: 60px; }
 
