@@ -8,6 +8,20 @@
     <atom:link href="http://changegeek.ru/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>AgilePeople</title>
+        
+        
+        
+          <description>&lt;p&gt;One of the goals of my tour is to meet people from &lt;a href=&quot;http://happymelly.com&quot; target=&quot;_blank&quot;&gt;Happy Melly&lt;/a&gt; network. I was more than lucky in Helsinki to spend a day with &lt;a href=&quot;https://www.facebook.com/skotlov/posts/10202842788510087&quot; target=&quot;_blank&quot;&gt;Marja and Hannu&lt;/a&gt;, and to have a couple of beers with &lt;a href=&quot;2015-04-08-flowa.markdown&quot;&gt;Antti&lt;/a&gt;. What a good time it was! I couldn’t wait it would repeat some day in some way. Thankfully Happy Melly has its “agents” everywhere. Last Monday I finally met with Johan whom I haven’t seen for ages and Pia-Maria whom I’ve never seen in person.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Tue, 21 Apr 2015 00:00:00 +0200</pubDate>
+        <link>http://changegeek.ru/blog/2015/04/21/agilepeople.html</link>
+        <guid isPermaLink="true">http://changegeek.ru/blog/2015/04/21/agilepeople.html</guid>
+      </item>
+    
+      <item>
         <title>Welcome to Vincity</title>
         
         
@@ -145,18 +159,6 @@
         <pubDate>Thu, 10 Jul 2014 13:50:49 +0200</pubDate>
         <link>http://changegeek.ru/blog/2014/07/10/what-is-the-colour-of-your-life.html</link>
         <guid isPermaLink="true">http://changegeek.ru/blog/2014/07/10/what-is-the-colour-of-your-life.html</guid>
-      </item>
-    
-      <item>
-        <title>Kudos On The Run</title>
-        
-        
-        
-          <description>&lt;p&gt;After two weeks of rush development we are glad to present a mobile-friendly version of Kudobox. It is easy to use, looks nice and, most important, gives you power to appreciate anyone from anywhere!&lt;/p&gt;</description>
-        
-        <pubDate>Thu, 03 Apr 2014 10:35:51 +0200</pubDate>
-        <link>http://changegeek.ru/blog/2014/04/03/kudos-on-the-run.html</link>
-        <guid isPermaLink="true">http://changegeek.ru/blog/2014/04/03/kudos-on-the-run.html</guid>
       </item>
     
   </channel>
