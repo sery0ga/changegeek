@@ -8,7 +8,7 @@ image:
     small: /images/agile_people.png
 
 ---
-One of the goals of my tour is to meet people from <a href="http://happymelly.com" target="_blank">Happy Melly</a> network. I was more than lucky in Helsinki to spend a day with <a href="https://www.facebook.com/skotlov/posts/10202842788510087" target="_blank">Marja and Hannu</a>, and to have a couple of beers with <a href="2015-04-08-flowa.markdown">Antti</a>. What a good time it was! I couldn't wait it would repeat some day in some way. Thankfully Happy Melly has its "agents" everywhere. Last Monday I finally met with Johan whom I haven't seen for ages and Pia-Maria whom I've never seen in person.
+One of the goals of my tour is to meet people from <a href="http://happymelly.com" target="_blank">Happy Melly</a> network. I was more than lucky in Helsinki to spend a day with <a href="https://www.facebook.com/skotlov/posts/10202842788510087" target="_blank">Marja and Hannu</a>, and to have a couple of beers with [Antti]({% post_url 2015-04-08-flowa %}). What a good time it was! I couldn't wait it would repeat some day in some way. Thankfully Happy Melly has its "agents" everywhere. Last Monday I finally met with Johan whom I haven't seen for ages and Pia-Maria whom I've never seen in person.
 
 <img src="/images/johan_and_me.jpg"/>
 
