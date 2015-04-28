@@ -8,6 +8,22 @@
     <atom:link href="http://changegeek.ru/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Yes before No</title>
+        
+        
+          <img src="http://changegeek.ru/images/yes_no.jpg"/>
+        
+        
+          <description>&lt;p&gt;Several days ago Jurgen wrote a very nice post about purpose and commitment, &lt;a href=&quot;http://noop.nl/2015/04/no.html&quot; target=&quot;_blank&quot;&gt;No&lt;/a&gt;. If you haven’t seen it yet, &lt;a href=&quot;http://noop.nl/2015/04/no.html&quot; target=&quot;_blank&quot;&gt;check the article&lt;/a&gt; right now. It’s important for understanding the text below. I wait while you’re reading.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Tue, 28 Apr 2015 00:00:00 +0200</pubDate>
+        <link>http://changegeek.ru/blog/2015/04/28/yes-before-no.html</link>
+        <guid isPermaLink="true">http://changegeek.ru/blog/2015/04/28/yes-before-no.html</guid>
+      </item>
+    
+      <item>
         <title>I&#39;ve never been bored in 15 years</title>
         
         
@@ -143,20 +159,6 @@
         <pubDate>Tue, 03 Mar 2015 08:02:25 +0100</pubDate>
         <link>http://changegeek.ru/blog/2015/03/03/test-run.html</link>
         <guid isPermaLink="true">http://changegeek.ru/blog/2015/03/03/test-run.html</guid>
-      </item>
-    
-      <item>
-        <title>Hard and funny</title>
-        
-        
-          <img src="http://changegeek.ru/images/rock_concert.png"/>
-        
-        
-          <description>&lt;p&gt;No matter how many dreams there are it’s easy to have them. Living even a tiny one is hard. Looking back over my shoulder I see how often I preferred an easy choice over a hard one. It didn’t make me happy. It didn’t make my life more fun, interesting and intriguing. Only simpler. About a week ago I gladly realized this time was over and I need to thank Happy Melly for that. &lt;/p&gt;</description>
-        
-        <pubDate>Thu, 19 Feb 2015 10:19:27 +0100</pubDate>
-        <link>http://changegeek.ru/blog/2015/02/19/hard-and-funny.html</link>
-        <guid isPermaLink="true">http://changegeek.ru/blog/2015/02/19/hard-and-funny.html</guid>
       </item>
     
   </channel>
