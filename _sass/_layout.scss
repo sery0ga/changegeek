@@ -70,6 +70,13 @@ body {
         color: $dark-grey;
     }
 }
+.page-content {
+    &:after, &:before {
+        display: table;
+        content: " ";
+        clear: both;
+    }
+}
 .header {
     position: relative;
     .header-image {
@@ -148,7 +155,7 @@ body {
 }
 
 .chapter {
-    padding-bottom: 85px;
+    // padding-bottom: 85px;
     float: left;
 
     blockquote, .content {

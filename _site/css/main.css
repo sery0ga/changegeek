@@ -141,6 +141,11 @@ body {
   .credits a {
     color: #6A7377; }
 
+.page-content:after, .page-content:before {
+  display: table;
+  content: " ";
+  clear: both; }
+
 .header {
   position: relative; }
   .header .header-image {
@@ -201,7 +206,6 @@ body {
       top: 60px; }
 
 .chapter {
-  padding-bottom: 85px;
   float: left; }
   .chapter blockquote, .chapter .content {
     max-width: 645px;
