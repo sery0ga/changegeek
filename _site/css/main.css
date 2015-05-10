@@ -215,6 +215,12 @@ body {
     width: 170px;
     font-size: 14px;
     margin: 5px 0px 0px 0px; }
+  .chapter img {
+    margin-bottom: 20px; }
+
+.textwrap {
+  float: left;
+  margin: 10px 10px 20px 10px; }
 
 h1 {
   margin-top: 1.8em; }
