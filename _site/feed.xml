@@ -8,6 +8,20 @@
     <atom:link href="http://changegeek.ru/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Netlight</title>
+        
+        
+        
+          <description>&lt;p&gt;After reading a number of invitations I learned to predict if I would truly enjoy the time taking an interview and finding out interesting facts about an organisation. Probably the most important factor is a mood of a letter. You feel it with your fibres when an author sincerely loves the company, is proud of it and very excited to let everyone know more. &lt;a href=&quot;https://se.linkedin.com/in/karinhartzell&quot; target=&quot;_blank&quot;&gt;Karin&lt;/a&gt; works at Netlight and her letter had all of those.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Sun, 03 May 2015 00:00:00 +0200</pubDate>
+        <link>http://changegeek.ru/blog/2015/05/03/netlight.html</link>
+        <guid isPermaLink="true">http://changegeek.ru/blog/2015/05/03/netlight.html</guid>
+      </item>
+    
+      <item>
         <title>Yes before No</title>
         
         
@@ -145,20 +159,6 @@
         <pubDate>Fri, 13 Mar 2015 07:17:33 +0100</pubDate>
         <link>http://changegeek.ru/blog/2015/03/13/one-fine-walk.html</link>
         <guid isPermaLink="true">http://changegeek.ru/blog/2015/03/13/one-fine-walk.html</guid>
-      </item>
-    
-      <item>
-        <title>Test run</title>
-        
-        
-          <img src="http://changegeek.ru/images/car_race.png"/>
-        
-        
-          <description>&lt;p&gt;We use &lt;strong&gt;test runs&lt;/strong&gt; in all spheres of our life. Extreme sport athletes ride a track several times before an event to know it better. Social networks first open new features to a small set of users to check their reaction. Companies have trial periods to prove a new hire is a good fit for the rest of a team.&lt;/p&gt;</description>
-        
-        <pubDate>Tue, 03 Mar 2015 08:02:25 +0100</pubDate>
-        <link>http://changegeek.ru/blog/2015/03/03/test-run.html</link>
-        <guid isPermaLink="true">http://changegeek.ru/blog/2015/03/03/test-run.html</guid>
       </item>
     
   </channel>
