@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body data-spy="scroll" data-target=".toc">
+
+    {% include ru.header.html %}
+
+    <div class="modal fade contact-form" id="contactForm" tabindex="-1" role="dialog" aria-labelledby="contactFormLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="contactFormLabel">Let's rock!</h4>
+          </div>
+          <div class="modal-body">
+            <p>I'm glad to meet new people no matter the reason: visiting your
+            organisation, joining a meetup or discuss web development. Leave me a message
+            or ping me on any social network.</p>
+            <ul class="list-inline">
+              <li><a href="http://twitter.com/skotlov" target="_blank" class="twitter"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="http://linkedin.com/in/skotlov" target="_blank" class="linkedin"><i class="fa fa-linkedin"></i></a></li>
+              <li><a href="http://www.facebook.com/skotlov" target="_blank" class="facebook"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="https://github.com/sery0ga" target="_blank" class="github"><i class="fa fa-github"></i></a></li>
+            </ul>
+            <form id="contact" action="https://getsimpleform.com/messages?form_api_token=eeb2bca2ed485d486bcb382f0f8599f4" method="post">
+              <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="Enter email">
+              </div>
+              <div class="form-group">
+                <label for="text">Message</label>
+                <textarea name="text" class="form-control" id="text" rows="7"></textarea>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="submit" form="contact" class="btn btn-tour btn-lg">Contact Sergey</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="page-content">
+      {{ content }}
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+</html>
