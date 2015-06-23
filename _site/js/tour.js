@@ -9,8 +9,8 @@ function resetCityMenu() {
 $(document).ready(function() {
   hideCityData();
   resetCityMenu();
-  $('.hamburg').show();
-  $('a.hamburg').addClass('active');
+  $('.barcelona').show();
+  $('a.barcelona').addClass('active');
   $('#cities').on('slide.bs.carousel', function (e) {
     hideCityData();
     resetCityMenu();
