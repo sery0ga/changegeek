@@ -356,14 +356,21 @@ ul {
   font-family: Roboto, Verdana, sans-serif; }
   .landing .header {
     position: inherit;
-    color: #fff;
-    background: url("/images/helsinki_landing_test.jpg");
-    font-size: 20px; }
+    font-size: 20px;
+    border-bottom: solid 1px #E8E8E8; }
     .landing .header h1 {
       margin-top: 0;
       font-weight: 600; }
     .landing .header .row {
-      padding: 100px 0px 50px; }
+      padding: 25px 0px 25px; }
+    .landing .header .meeting-cell {
+      border-right: 2px solid #ccc; }
+      .landing .header .meeting-cell.last {
+        border-right: 0px; }
+      .landing .header .meeting-cell h4 {
+        margin-top: 14px; }
+      .landing .header .meeting-cell h5 {
+        margin-top: 16px; }
     .landing .header .invite-block .btn-invite {
       margin: 20px;
       margin-bottom: 50px;
@@ -376,7 +383,8 @@ ul {
     z-index: 10;
     margin-top: -100px; }
   .landing .about {
-    font-size: 16px; }
+    font-size: 16px;
+    margin-top: 30px; }
     .landing .about .social-info {
       font-size: 20px;
       margin-top: 30px; }

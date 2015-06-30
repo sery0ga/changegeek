@@ -3,15 +3,27 @@
 
   .header {
     position: inherit;
-    color: #fff;
-    background: url('/images/helsinki_landing_test.jpg');
     font-size: 20px;
+    border-bottom: solid 1px #E8E8E8;
+
     h1 {
       margin-top: 0;
       font-weight: 600;
     }
     .row {
-      padding: 100px 0px 50px;
+      padding: 25px 0px 25px;
+    }
+    .meeting-cell {
+      border-right: 2px solid #ccc;
+      &.last {
+        border-right: 0px;
+      }
+      h4 {
+        margin-top: 14px;
+      }
+      h5 {
+        margin-top: 16px;
+      }
     }
     .invite-block {
       .btn-invite {
@@ -31,6 +43,7 @@
   }
   .about {
     font-size: 16px;
+    margin-top: 30px;
 
     .social-info {
       font-size: 20px;
