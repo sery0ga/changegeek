@@ -48,6 +48,9 @@
                   <li id="blog">
                       <a href="/blog/">Blog</a>
                   </li>
+                  <li id="about">
+                      <a href="/about/">About</a>
+                  </li>
                   <li>
                     <a href="http://feeds.feedburner.com/ChangeForHappiness" target="_blank">Subscribe</a>
                   </li>
@@ -73,15 +76,6 @@
             <h4 class="modal-title" id="contactFormLabel">Let's rock!</h4>
           </div>
           <div class="modal-body">
-            <p>I'm glad to meet new people no matter the reason: visiting your
-            organisation, joining a meetup or discuss web development. Leave me a message
-            or ping me on any social network.</p>
-            <ul class="list-inline">
-              <li><a href="http://twitter.com/skotlov" target="_blank" class="twitter"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="http://linkedin.com/in/skotlov" target="_blank" class="linkedin"><i class="fa fa-linkedin"></i></a></li>
-              <li><a href="http://www.facebook.com/skotlov" target="_blank" class="facebook"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="https://github.com/sery0ga" target="_blank" class="github"><i class="fa fa-github"></i></a></li>
-            </ul>
             <form id="contact" action="https://getsimpleform.com/messages?form_api_token=eeb2bca2ed485d486bcb382f0f8599f4" method="post">
               <div class="form-group">
                 <label for="email">Email address</label>
@@ -89,7 +83,12 @@
               </div>
               <div class="form-group">
                 <label for="text">Message</label>
-                <textarea name="text" class="form-control" id="text" rows="7"></textarea>
+                <textarea name="text" class="form-control" id="text" rows="7">Hi Sergey,
+
+I'm glad to take part and give you a short interview.
+
+Cheers,
+                </textarea>
               </div>
             </form>
           </div>
@@ -102,556 +101,161 @@
 
     <div class="page-content">
       <div class="tour">
-  <div id="cities" class="carousel slide" data-ride="carousel" data-interval="false">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#cities" data-slide-to="0"></li>
-      <li data-target="#cities" data-slide-to="1"></li>
-      <li data-target="#cities" data-slide-to="2"></li>
-      <li data-target="#cities" data-slide-to="3"></li>
-      <li data-target="#cities" data-slide-to="4"></li>
-      <li data-target="#cities" data-slide-to="5" class="active"></li>
-    </ol>
-
-    <!-- Wrapper for slides -->
-    <div class="credits">
-      <div class="helsinki pull-right">
-        photo by: <a title="delayed gratification"
-          href="https://www.flickr.com/photos/joshhough/" target="_blank">delayed gratification</a>
-      </div>
-      <div class="stockholm">
-        photo by: <a title="Giuseppe Milo"
-          href="https://www.flickr.com/photos/giuseppemilo/" target="_blank">Giuseppe Milo</a>
-      </div>
-      <div class="berlin">
-        photo by: <a title="m.a.r.c."
-          href="https://www.flickr.com/photos/mabi/" target="_blank">m.a.r.c.</a>
-      </div>
-      <div class="hamburg">
-        photo by: <a title="Gunnar09"
-          href="http://www.fotocommunity.de/fotograf/gunnar09/1384690" target="_blank">Gunnar09</a>
-      </div>
-      <div class="rotterdam">
-        photo by: <a title="Massimo Catarinella"
-          href="http://en.wikipedia.org/wiki/Erasmusbrug#/media/File:RotterdamMaasNederland.jpg" target="_blank">Massimo Catarinella</a>
-      </div>
-      <div class="barcelona">
-        photo by: <a title="Fraser Mummery"
-          href="https://www.flickr.com/photos/73014677@N05/" target="_blank">Fraser Mummery</a>
-      </div>
-    </div>
-
-    <div class="carousel-inner header" role="listbox">
-      <div class="item" id="helsinki">
-        <div class="header-image"
-            style="background-color: #000; background-image: url('/images/slider/helsinki.png');"></div>
-        <div class="carousel-caption">
-          <h3>Helsinki, 1 Apr &mdash; 15 Apr</h3>
-        </div>
-      </div>
-      <div class="item" id="stockholm">
-        <div class="header-image"
-            style="background-color: #031C38; background-image: url('/images/slider/stockholm.png');"></div>
-
-        <div class="carousel-caption">
-          <h3>Stockholm, 15 Apr &mdash; 29 Apr</h3>
-        </div>
-      </div>
-      <div class="item" id="berlin">
-        <div class="header-image"
-            style="background-color: white; background-image: url('/images/slider/berlin.png');"></div>
-        <div class="carousel-caption">
-          <h3>Berlin, 29 Apr &mdash; 14 May</h3>
-        </div>
-      </div>
-      <div class="item" id="hamburg">
-        <div class="header-image"
-            style="background-color: white; background-image: url('/images/slider/hamburg.png');"></div>
-        <div class="carousel-caption">
-          <h3>Hamburg, 17 May &mdash; 27 May</h3>
-        </div>
-      </div>
-      <div class="item" id="rotterdam">
-        <div class="header-image"
-            style="background-color: white; background-image: url('/images/slider/rotterdam.png');"></div>
-        <div class="carousel-caption">
-          <h3>Rotterdam, 27 May &mdash; 15 June</h3>
-        </div>
-      </div>
-      <div class="item active" id="barcelona">
-        <div class="header-image"
-            style="background-color: white; background-image: url('/images/slider/barcelona.png');"></div>
-        <div class="carousel-caption">
-          <h3>Barcelona, 15 June &mdash; 26 June</h3>
-        </div>
-      </div>
-    </div>
-
-    <!-- Controls -->
-    <a class="left carousel-control" href="#cities" role="button" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#cities" role="button" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
   <div class="container">
-    <div class="tour-badge pull-right">
-      <button type="button" data-toggle="modal" data-target="#contactForm" class="btn btn-tour btn-lg">Invite me</button>
-    </div>
-  </div>
-  <div class="city-menu">
     <div class="container">
-      <ul role="navigation" id="cityMenu">
-        <li class="first"><a data-id="0" class="helsinki"href="#">Helsinki</a></li>
-        <li><a data-id="1" class="stockholm" href="#">Stockholm</a></li>
-        <li><a data-id="2" class="berlin" href="#">Berlin</a></li>
-        <li><a data-id="3" class="hamburg" href="#">Hamburg</a></li>
-        <li><a data-id="4" class="rotterdam" href="#">Rotterdam</a></li>
-        <li><a data-id="5" class="barcelona" href="#">Barcelona</a></li>
-      </ul>
-    </div>
-  </div>
-  <div class="container">
-    <div class="row meetings helsinki">
-      <h2>In Helsinki I want to meet and visit</h2>
-      <div>
-        <div class="col-md-4 meeting-cell">
-          <div class="col-md-5">
-            <img src="/images/faces/hannu_marja_muuks.png" class="img-circle" alt="Hannu and Marja"/>
-          </div>
-          <div class="col-md-7">
-            Hannu and Marja
-            <br/>
-            <div>website: <a href="http://muuks.fi" target="_blank">muuks.fi</a></div>
-            <span class="label label-success"><i class="glyphicon glyphicon-ok"></i> done</span>
-          </div>
-        </div>
-        <div class="col-md-4 meeting-cell">
-          <div class="col-md-5">
-            <img src="https://secure.gravatar.com/avatar/6db74d301a180846102f87ad8813f503?s=300" alt="Vasco Duarte" class="img-circle"/>
-          </div>
-          <div class="col-md-7">
-            Vasco Duarte
-            <br/>
-            <div>website: <a href="http://noestimatesbook.com/" target="_blank">noestimatesbook.com</a></div>
-            <span class="label label-warning"><i class="glyphicon glyphicon-calendar"></i> scheduled</span>
-          </div>
-        </div>
-        <div class="col-md-4 meeting-cell">
-          <div class="col-md-5">
-            <a href="http://flowa.fi/" target="_blank">
-              <img src="/images/faces/flowa.png" class="img-circle" alt="Flowa"/></a>
-          </div>
-          <div class="col-md-7">
-            Flowa
-            <br/>
-            <div>website: <a href="http://flowa.fi" target="_blank">flowa.fi</a></div>
-            <div>story: <a href="/blog/2015/04/08/flowa.html ">Flowa</a></div>
-            <span class="label label-success"><i class="glyphicon glyphicon-ok"></i> done</span>
-          </div>
+      <div class"row">
+        <div class="col-md-12 text-center">
+          <h1>I visited</h1>
         </div>
       </div>
-      <div>
-        <div class="col-md-4 meeting-cell">
-          <div class="col-md-5">
-            <a href="http://reaktor.fi" target="_blank">
-              <img src="/images/faces/Reaktor_Logo_600px.jpg" class="img-circle" alt="Reaktor"/>
-            </a>
-          </div>
-          <div class="col-md-7">
-            Reaktor
-            <br/>
-            <div>website: <a href="http://reaktor.fi" target="_blank">reaktor.fi</a></div>
-            <div>case study: not available yet</div>
-            <span class="label label-success"><i class="glyphicon glyphicon-ok"></i> done</span>
-          </div>
-        </div>
-        <div class="col-md-4 meeting-cell">
-          <div class="col-md-5">
-            <a href="http://futurice.com/" target="_blank">
-              <img src="/images/faces/futurice-logo.png" class="img-circle" alt="Futurice"/></a>
-          </div>
-          <div class="col-md-7">
-            Futurice
-            <br/>
-            <div>website: <a href="http://futurice.com" target="_blank">futurice.com</a></div>
-            <div>case study: <a href="/research/futurice.html">read me</a></div>
-            <span class="label label-success"><i class="glyphicon glyphicon-ok"></i> done</span>
-          </div>
-        </div>
-        <div class="col-md-4 meeting-cell">
-          <div class="col-md-5">
-            <a href="http://vincit.fi" target="_blank">
-              <img src="/images/faces/vincit.png" class="img-circle"/>
-            </a>
-          </div>
-          <div class="col-md-7">
-            Vincit
-            <br/>
-            <div>website: <a href="http://vincit.fi" target="_blank">vincit.fi</a></div>
-            <div>case study: not available yet</div>
-            <span class="label label-success"><i class="glyphicon glyphicon-ok"></i> done</span>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row meetings stockholm">
-      <h2>In Stockholm I want to meet and visit</h2>
-      <div>
-        <div class="col-md-4 meeting-cell">
-          <div class="col-md-5">
-            <img src="/images/faces/pia-maria.jpg" class="img-circle" alt="Pia-Maria Thoren"/>
-          </div>
-          <div class="col-md-7">
-            Pia-Maria Thorén
-            <br/>
-            <div>twitter: <a href="http://twitter.com/piamia2" target="_blank">piamia2</a></div>
-            <span class="label label-success"><i class="glyphicon glyphicon-ok"></i> done</span>
-          </div>
-        </div>
-        <div class="col-md-4 meeting-cell">
-          <div class="col-md-5">
-            <a href="https://crisp.se/" target="_blank">
-              <img src="/images/faces/crisp.png" class="img-circle" alt="Crisp"/>
-            </a>
-          </div>
-          <div class="col-md-7">
-            Crisp
-            <br/>
-            <div>website: <a href="https://crisp.se/" target="_blank">crisp.se</a></div>
-            <span class="label label-success"><i class="glyphicon glyphicon-ok"></i> done</span>
-          </div>
-        </div>
-        <div class="col-md-4 meeting-cell">
-          <div class="col-md-5">
-            <a href="https://netlight.com/" target="_blank">
-              <img src="/images/faces/netlight.png" class="img-circle" alt="Netlight"/></a>
-          </div>
-          <div class="col-md-7">
-            Netlight
-            <br/>
-            <div>website: <a href="https://netlight.com/" target="_blank">netlight.com</a></div>
-            <div>case study: not available yet</div>
-            <span class="label label-success"><i class="glyphicon glyphicon-ok"></i> done</span>
-          </div>
-        </div>
-      </div>
-      <div>
-        <div class="col-md-4 meeting-cell">
-          <div class="col-md-5">
-            <img src="/images/faces/johan_oskarrson.jpg" class="img-circle" alt="Johan Oskarrson"/>
-          </div>
-          <div class="col-md-7">
-            Johan Oskarrson
-            <br/>
-            <div>linkedin: <a href="https://se.linkedin.com/in/oskarssonjohan/en" target="_blank">view</a></div>
-            <span class="label label-success"><i class="glyphicon glyphicon-ok"></i> done</span>
-          </div>
-        </div>
-        <div class="col-md-4 meeting-cell">
-            I'm in Stocklholm. Wanna meet?
-            <div class="invite-block">
-              <button type="button" data-toggle="modal" data-target="#contactForm" class="btn btn-invite btn-lg btn-primary">Contact me</button>
-            </div>
-        </div>
-      </div>
-    </div>
-    <div class="row meetings berlin">
-      <h2>In Berlin I want to meet and visit</h2>
-      <div>
-        <div class="col-md-4 meeting-cell">
-          <div class="col-md-5">
-            <a href="http://www.siemens.com/entry/de/de/" target="_blank">
-              <img src="/images/faces/siemens.png" class="img-circle" alt="Siemens"/>
-            </a>
-          </div>
-          <div class="col-md-7">
-            Siemens
-            <br/>
-            <div>website: <a href="http://www.siemens.com/entry/de/de/" target="_blank">Siemens</a></div>
-            <span class="label label-success"><i class="glyphicon glyphicon-ok"></i> done</span>
-          </div>
-        </div>
-        <div class="col-md-4 meeting-cell">
-          <div class="col-md-5">
-            <a href="http://tech.zalando.com/" target="_blank">
-              <img src="/images/faces/zalando.png" class="img-circle" alt="Zalando"/>
-            </a>
-          </div>
-          <div class="col-md-7">
-            Zalando
-            <br/>
-            <div>website: <a href="http://tech.zalando.com/" target="_blank">Zalando</a></div>
-            <div>case study: not available yet</div>
-            <span class="label label-success"><i class="glyphicon glyphicon-ok"></i> done</span>
-          </div>
-        </div>
-        <div class="col-md-4 meeting-cell">
-          <div class="col-md-5">
-            <a href="https://www.movingimage24.com" target="_blank">
-              <img src="/images/faces/movingimage24.png" class="img-circle" alt="MovingImage24"/>
-            </a>
-          </div>
-          <div class="col-md-7">
-            MovingImage24
-            <br/>
-            <div>website: <a href="http://movingimage24.com" target="_blank">movingimage24.com</a></div>
-            <div>case study: not available yet</div>
-            <span class="label label-success"><i class="glyphicon glyphicon-ok"></i> done</span>
-          </div>
-        </div>
-      </div>
-      <div>
-        <div class="col-md-4 meeting-cell">
-          <div class="col-md-5">
-            <a href="http://soundcloud.com" target="_blank">
-              <img src="/images/faces/sc_square_480.png" class="img-circle" alt="Soundcloud"/>
-            </a>
-          </div>
-          <div class="col-md-7">
-            Soundcloud
-            <br/>
-            <div>website: <a href="http://soundcloud.com" target="_blank">soundcloud.com</a></div>
-            <div>case study: not available yet</div>
-            <span class="label label-danger"><i class="glyphicon glyphicon-exclamation-sign"></i> waiting for reply</span>
-          </div>
-        </div>
-        <div class="col-md-4 meeting-cell">
-          <div class="col-md-5">
-            <a href="https://de.linkedin.com/in/flowchaser" target="_blank">
-              <img src="https://media.licdn.com/mpr/mpr/shrink_200_200/p/1/000/199/2b1/1def19e.jpg" class="img-circle" alt="Egor Sviridenko"/>
-            </a>
-          </div>
-          <div class="col-md-7">
-            Egor Sviridenko
-            <br/>
-            <div>website: <a href="https://de.linkedin.com/in/flowchaser" target="_blank">linkedin</a></div>
-            <span class="label label-success"><i class="glyphicon glyphicon-ok"></i> done</span>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row meetings hamburg">
-      <h2>In Hamburg I want to meet and visit</h2>
-      <div>
-        <div class="col-md-4 meeting-cell">
-          <div class="col-md-5">
-            <a href="http://www.jimdo.com/" target="_blank">
-              <img src="/images/faces/jimbo.png" class="img-circle" alt="Jimdo"/>
-            </a>
-          </div>
-          <div class="col-md-7">
-            Jimdo
-            <br/>
-            <div>website: <a href="http://www.jimdo.com/" target="_blank">jimdo.com</a></div>
-            <div>case study: not available yet</div>
-            <span class="label label-success"><i class="glyphicon glyphicon-ok"></i> done</span>
-          </div>
-        </div>
-        <div class="col-md-4 meeting-cell">
-          <div class="col-md-5">
-            <a href="http://www.xing.com/" target="_blank">
-              <img src="/images/faces/xing.jpg" class="img-circle" alt="Xing"/>
-            </a>
-          </div>
-          <div class="col-md-7">
-            Xing
-            <br/>
-            <div>website: <a href="http://www.xing.com/" target="_blank">xing.com</a></div>
-            <div>case study: not available yet</div>
-            <span class="label label-success"><i class="glyphicon glyphicon-ok"></i> done</span>
-          </div>
-        </div>
-        <div class="col-md-4 meeting-cell">
-          <div class="col-md-5">
-            <a href="http://it-agile.de/" target="_blank">
-              <img src="/images/faces/it-agile.svg" class="img-circle" alt="it-agile"/>
-            </a>
-          </div>
-          <div class="col-md-7">
-            it-agile
-            <br/>
-            <div>website: <a href="http://it-agile.de/" target="_blank">it-agile.de</a></div>
-            <div>case study: not available yet</div>
-            <span class="label label-success"><i class="glyphicon glyphicon-ok"></i> done</span>
-          </div>
-        </div>
-      </div>
-      <div>
-        <div class="col-md-4 meeting-cell">
-          <div class="col-md-5">
-            <a href="https://us.mytaxi.com" target="_blank">
-              <img src="/images/faces/mytaxi_app_logo.png" class="img-circle" alt="myTaxi"/>
-            </a>
-          </div>
-          <div class="col-md-7">
-            myTaxi
-            <br/>
-            <div>website: <a href="https://us.mytaxi.com" target="_blank">mytaxi.com</a></div>
-            <div>case study: not available yet</div>
-            <span class="label label-warning"><i class="glyphicon glyphicon-calendar"></i> scheduled for 19.05</span>
-          </div>
-        </div>
-        <div class="col-md-4 meeting-cell">
-          <div class="col-md-5">
-            <a href="http://ministry.de" target="_blank">
-              <img src="/images/faces/ministry.png" class="img-circle" alt="Ministry"/>
-            </a>
-          </div>
-          <div class="col-md-7">
-            Ministry
-            <br/>
-            <div>website: <a href="http://ministry.de" target="_blank">ministry.de</a></div>
-            <div>case study: not available yet</div>
-            <span class="label label-success"><i class="glyphicon glyphicon-ok"></i> done</span>
-          </div>
-        </div>
-        <div class="col-md-4 meeting-cell">
-          <div class="col-md-5">
-            <a href="http://www.goodgamestudios.com/" target="_blank">
-              <img src="/images/faces/goodgame.png" class="img-circle" alt="GoodGame Studios"/>
-            </a>
-          </div>
-          <div class="col-md-7">
-            GOODGAME Studios
-            <br/>
-            <div>website: <a href="http://www.goodgamestudios.com/" target="_blank">GOODGAME studios</a></div>
-            <div>case study: not available yet</div>
-            <span class="label label-success"><i class="glyphicon glyphicon-ok"></i> done</span>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row meetings rotterdam">
-      <h2>In Rotterdam I want to meet and visit</h2>
-      <div>
-        <div class="col-md-4 meeting-cell">
-          <div class="col-md-5">
-            <a href="http://hilton.org.uk/blog/" target="_blank">
-              <img src="http://graph.facebook.com/peter.hilton/picture?type=large" class="img-circle" alt="Peter Hilton"/>
-            </a>
-          </div>
-          <div class="col-md-7">
-            Peter Hilton
-            <br/>
-            <div>website: <a href="http://hilton.org.uk/blog/" target="_blank">blog</a></div>
-            <span class="label label-warning"><i class="glyphicon glyphicon-hourglass"></i> confirmed</span>
-          </div>
-        </div>
-        <div class="col-md-4 meeting-cell">
-          <div class="col-md-5">
-            <a href="http://collaborationsuperpowers.com" target="_blank">
-              <img src="https://secure.gravatar.com/avatar/e14ef0ed258dc1aeaff3e7285ac02c89?s=300" class="img-circle" alt="Lisette Sutherland"/>
-            </a>
-          </div>
-          <div class="col-md-7">
-            Lisette Sutherland
-            <br/>
-            <div>website: <a href="http://collaborationsuperpowers.com" target="_blank">Collaboration Superpowers</a></div>
-            <span class="label label-warning"><i class="glyphicon glyphicon-hourglass"></i> confirmed</span>
-          </div>
-        </div>
-        <div class="col-md-4 meeting-cell">
-            I'm still planning my time in Rotterdam.
-          <div class="invite-block">
-            <button type="button" data-toggle="modal" data-target="#contactForm" class="btn btn-invite btn-lg btn-primary">Contact me</button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row meetings barcelona">
-      <h2>In Barcelona I want to meet and visit</h2>
-      <div>
-        <div class="col-md-4 meeting-cell">
-          <div class="col-md-5">
-            <a href="http://www.xing.com/" target="_blank">
-              <img src="/images/faces/xing.jpg" class="img-circle" alt="Xing"/>
-            </a>
-          </div>
-          <div class="col-md-7">
-            Xing
-            <br/>
-            <div>website: <a href="http://www.xing.com/" target="_blank">xing.com</a></div>
-            <div>case study: not available yet</div>
-            <span class="label label-success"><i class="glyphicon glyphicon-ok"></i> done</span>
-          </div>
-        </div>
-        <div class="col-md-4 meeting-cell">
-          <div class="col-md-5">
-            <a href="http://www.3scale.net/" target="_blank">
-              <img src="/images/faces/3scale-logo-color.png" class="img-circle" alt="3Scale"/>
-            </a>
-          </div>
-          <div class="col-md-7">
-            3Scale
-            <br/>
-            <div>website: <a href="http://www.3scale.net/" target="_blank">3Scale</a></div>
-            <div>case study: not available yet</div>
-            <span class="label label-success"><i class="glyphicon glyphicon-ok"></i> done</span>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <h2>Why should you invite me?</h2>
-      <div class="col-md-4 text">
-        <h4>Exchange experience</h4>
-        <p>I have experience in many spheres, from leading teams to running
-        local Agile community to developing international network of businesses.</p>
-        <p>I happily take part in meetups, coding sessions and any other activities
-        which help us to exchange knowledge and know each other better.</p>
-      </div>
-      <div class="col-md-4 text">
-        <h4>Blog about you</h4>
-        <p>Inspiring companies which care about employees and their well-being have
-        been a topic of my interest for several years now. I like to find
-        great organisations and write about them (check <a href="/research/futurice.html">Futurice case study</a>
-        as an example).</p>
-        <p>I gladly share my findings about your company on my own and
-        <a href="http://happymelly.com" target="_blank">Happy Melly</a> blogs.</p>
-      </div>
-      <div class="col-md-4 text">
-        <h4>Inspire others</h4>
-        <p>Going on a tour and visiting terrific companies around the world
-        is <a href="/2015/02/19/hard-and-funny.html">one of my dreams</a>.
-        And I'm doing it while keep working and helping others
-        be happier at work.</p>
-        <p>I hope my small trip will motivate other people to pursue much
-        bigger dreams. Help me to inspire people!</p>
-      </div>
-    </div>
-    <div class="row recommend">
-      <h2>Recommendations</h2>
-      <div class="col-md-4">
-        <div class="col-md-6 clean-fix-left">
-          <img src="http://graph.facebook.com/peter.hilton/picture?type=large" class="img-circle" width="140px"/>
-        </div>
-        <div class="col-md-6 social-info">
-          Peter Hilton
-          <div>Software developer, <br/>writer, speaker, <br/>ex-COO at Lunatech</div>
-        </div>
-      </div>
-      <div class="col-md-8 text">
-        When Sergey visited our office for two weeks to exchange ideas and meet new people, I was impressed by how much he was able to bring to our team. Sergey is not just an excellent developer, but offered valuable insights in his role as an agile coach, and infected the team with his enthusiasm and positive outlook. I recommend that anyone who has the opportunity should spend a few days with Sergey and revitalise their work.
-      </div>
-    </div>
-    <div class="row ican">
-      <h2>Why am I doing it?</h2>
       <div class="row">
-        <div class="col-md-offset-2 col-md-2 clean-fix-left"><strong>Short answer</strong></div>
-        <div class="col-md-8">Because I can</div>
+        <div class="col-md-3 meeting-cell">
+          <div class="col-md-5">
+            <img src="/images/faces/flowa.png" class="img-circle" alt="Flowa"/>
+          </div>
+          <div class="col-md-7">
+            <a href="/blog/2015/04/08/flowa.html "><h4>Flowa</h4></a>
+          </div>
+        </div>
+        <div class="col-md-3 meeting-cell">
+          <div class="col-md-5">
+            <img src="/images/faces/Reaktor_Logo_600px.jpg" class="img-circle" alt="Reaktor"/>
+          </div>
+          <div class="col-md-7">
+            <a href="/blog/2015/04/14/reaktor.html "><h4>Reaktor</h4></a>
+          </div>
+        </div>
+        <div class="col-md-3 meeting-cell">
+          <div class="col-md-5">
+            <img src="/images/faces/futurice-logo.png" class="img-circle" alt="Futurice"/>
+          </div>
+          <div class="col-md-7">
+            <a href="/blog/2015/04/16/futufriday.html "><h4>Futurice</h4></a>
+          </div>
+        </div>
+        <div class="col-md-3 meeting-cell last">
+          <div class="col-md-5">
+            <img src="/images/faces/vincit.png" class="img-circle"/>
+          </div>
+          <div class="col-md-7">
+            <a href="/blog/2015/04/17/welcome-to-vincity.html "><h4>Vincit</h4></a>
+          </div>
+        </div>
       </div>
-      <div class="row clear-fix">
-        <div class="col-md-offset-2 col-md-2 clean-fix-left"><strong>Long answer</strong></div>
-        <div class="col-md-8">I've been a big fan and active promoter of organizations which care about happiness and engagement of their employees for several years. I learned a lot by reading books and articles, watching interviews and talks. Now I want to visit awesome companies, talk to people who work there, see how they produce great products.</div>
+      <div class="row">
+        <div class="col-md-3 meeting-cell">
+          <div class="col-md-5">
+            <img src="/images/faces/crisp.png" class="img-circle" alt="Crisp"/>
+          </div>
+          <div class="col-md-7">
+            <a href="/blog/2015/04/24/crisp.html "><h4>Crisp</h4></a>
+          </div>
+        </div>
+        <div class="col-md-3 meeting-cell">
+          <div class="col-md-5">
+            <img src="/images/faces/netlight.png" class="img-circle" alt="Netlight"/>
+          </div>
+          <div class="col-md-7">
+            <a href="/blog/2015/05/03/netlight.html "><h4>Netlight</h4></a>
+          </div>
+        </div>
+        <div class="col-md-3 meeting-cell">
+          <div class="col-md-5">
+            <img src="/images/faces/3scale-logo-color.png" class="img-circle" alt="3Scale"/>
+          </div>
+          <div class="col-md-7">
+            <h4>3Scale</h4>
+          </div>
+        </div>
+        <div class="col-md-3 meeting-cell last">
+          <div class="col-md-5">
+            <img src="/images/faces/jimbo.png" class="img-circle" alt="Jimdo"/>
+          </div>
+          <div class="col-md-7">
+            <h4>Jimdo</h4>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3 meeting-cell">
+          <div class="col-md-5">
+            <img src="/images/faces/xing.jpg" class="img-circle" alt="Xing"/>
+          </div>
+          <div class="col-md-7">
+            <h4>Xing</h4>
+          </div>
+        </div>
+        <div class="col-md-3 meeting-cell">
+          <div class="col-md-5">
+            <img src="/images/faces/it-agile.png" class="img-circle" alt="it-agile"/>
+          </div>
+          <div class="col-md-7">
+            <h4>it-agile</h4>
+          </div>
+        </div>
+        <div class="col-md-3 meeting-cell">
+          <div class="col-md-5">
+            <img src="/images/faces/ministry.png" class="img-circle" alt="Ministry"/>
+          </div>
+          <div class="col-md-7">
+            <a href="/blog/2015/06/23/ministry.html "><h4>Ministry</h4></a>
+          </div>
+        </div>
+        <div class="col-md-3 meeting-cell last">
+          <div class="col-md-5">
+            <img src="/images/faces/goodgame.png" class="img-circle" alt="GoodGame Studios"/>
+          </div>
+          <div class="col-md-7">
+            <a href="/blog/2015/06/01/goodgame-studios.html "><h5>GOODGAME Studios</h5></a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3 meeting-cell">
+          <div class="col-md-5">
+            <img src="/images/faces/qudosoft.png" class="img-circle" alt="Qudosoft"/>
+          </div>
+          <div class="col-md-7">
+            <h4>Qudosoft</h4>
+          </div>
+        </div>
+        <div class="col-md-3 meeting-cell">
+          <div class="col-md-5">
+            <img src="/images/faces/klarna.png" class="img-circle" alt="Klarna"/>
+          </div>
+          <div class="col-md-7">
+            <h4>Klarna</h4>
+          </div>
+        </div>
+        <div class="col-md-3 meeting-cell">
+          <div class="col-md-5">
+            <img src="/images/faces/movingimage24.png" class="img-circle" alt="MovingImage24"/>
+          </div>
+          <div class="col-md-7">
+            <h5 style="margin-top: 25px;">MovingImage24</h5>
+          </div>
+        </div>
+        <div class="col-md-3 meeting-cell last">
+          <div class="col-md-5">
+            <img src="/images/faces/zalando.png" class="img-circle" alt="Zalando"/>
+          </div>
+          <div class="col-md-7 ">
+            <h4>Zalando</h4>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3 meeting-cell">
+          <div class="col-md-5">
+            <img src="/images/faces/siemens.png" class="img-circle" alt="Siemens"/>
+          </div>
+          <div class="col-md-7">
+            <h4>Siemens</h3>
+          </div>
+        </div>
       </div>
     </div>
     <div class="row">
-      <h2>Publications</h2>
-
       <div class="col-md-6 text">
         
           <h4>Latest story</h4>

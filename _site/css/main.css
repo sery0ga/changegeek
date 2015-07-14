@@ -356,13 +356,17 @@ ul {
   font-family: Roboto, Verdana, sans-serif; }
   .landing .header {
     position: inherit;
-    font-size: 20px;
-    border-bottom: solid 1px #E8E8E8; }
+    font-size: 20px; }
     .landing .header h1 {
       margin-top: 0;
       font-weight: 600; }
-    .landing .header .row {
-      padding: 25px 0px 25px; }
+    .landing .header .col-md-12 {
+      padding: 50px 0px 50px; }
+    .landing .header .landing-text {
+      padding: 0px 0px 30px; }
+    .landing .header .headline {
+      background-color: #6A7377;
+      color: white; }
     .landing .header .meeting-cell {
       border-right: 2px solid #ccc; }
       .landing .header .meeting-cell.last {
@@ -414,8 +418,6 @@ ul {
     color: #fff; }
 
 .tour-badge {
-  margin-top: -43px;
-  margin-bottom: -25px;
   position: relative; }
   .tour-badge button {
     width: 300px;

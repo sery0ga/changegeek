@@ -4,14 +4,20 @@
   .header {
     position: inherit;
     font-size: 20px;
-    border-bottom: solid 1px #E8E8E8;
 
     h1 {
       margin-top: 0;
       font-weight: 600;
     }
-    .row {
-      padding: 25px 0px 25px;
+    .col-md-12 {
+      padding: 50px 0px 50px;
+    }
+    .landing-text {
+      padding: 0px 0px 30px;
+    }
+    .headline {
+      background-color: $dark-grey;
+      color: white;
     }
     .meeting-cell {
       border-right: 2px solid #ccc;
