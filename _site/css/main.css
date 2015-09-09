@@ -400,8 +400,6 @@ ul {
           .landing .about .social-info ul a:hover {
             text-decoration: none; }
     .landing .about .desc {
-      font-family: LiberationSerif, Times, serif;
-      font-size: 18px;
       margin-top: 30px; }
 
 @media (min-width: 1200px) {
